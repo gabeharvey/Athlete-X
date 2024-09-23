@@ -6,6 +6,7 @@
 }
 
 .navbar {
+  font-family: 'Changa', cursive;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -47,7 +48,7 @@
 .home-container {
   padding: 20px;
   text-align: center;
-  background-color: #FFFDD0; 
+  background-color: #800020; 
   min-height: 100vh;
 }
 
@@ -59,4 +60,55 @@
 .home-description {
   font-size: 18px;
   color: #FFFDD0;
+}
+
+.footer {
+  background-color: #2C2C2C; 
+  font-family: 'Changa', cursive;
+  padding: 20px;
+  text-align: center;
+  background-image: linear-gradient(45deg, #000 25%, transparent 25%, transparent 50%, #000 50%, #000 75%, transparent 75%, transparent);
+  background-size: 5px 5px;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: center; 
+  align-items: center;
+  flex-direction: column; 
+  flex-wrap: wrap; 
+}
+
+.footer-logo {
+  color: #FFFDD0; 
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px; 
+}
+
+.footer-nav {
+  flex-grow: 1; 
+}
+
+.footer-links {
+  list-style-type: none;
+  display: flex;
+  justify-content: center; 
+  margin: 0;
+  padding: 0;
+}
+
+.footer-item {
+  margin: 0 15px;
+}
+
+.footer-link {
+  color: #FFFDD0; 
+  text-decoration: none;
+  font-size: 18px;
+  transition: color 0.3s;
+}
+
+.footer-link:hover {
+  color: #FFD700; 
 }
