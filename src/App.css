@@ -47,9 +47,15 @@
 }
 
 .home-container {
+  background-image: url('/basketball.png'); 
+  background-size: contain; 
+  background-position: center; 
+  background-repeat: no-repeat; 
+  height: 100vh; 
+  width: 100%;
   padding: 20px;
   text-align: center;
-  background-color: #FFFDD0; 
+  background-color: black; 
   min-height: 100vh;
 }
 
@@ -59,6 +65,29 @@
 }
 
 .home-description {
+  font-size: 18px;
+  color: #FFFDD0;
+}
+
+.about-container {
+  background-image: url('/volleyball.png'); 
+  background-size: contain; 
+  background-position: center; 
+  background-repeat: no-repeat; 
+  height: 100vh; 
+  width: 100%;
+  padding: 20px;
+  text-align: center;
+  background-color: black; 
+  min-height: 100vh;
+}
+
+.about-title {
+  font-size: 36px;
+  color: #FFFDD0;
+}
+
+.about-description {
   font-size: 18px;
   color: #FFFDD0;
 }
