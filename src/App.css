@@ -70,7 +70,7 @@
 }
 
 .about-container {
-  background-image: url('/volleyball.png'); 
+  background-image: url('/basketball.png'); 
   background-size: contain; 
   background-position: center; 
   background-repeat: no-repeat; 
@@ -93,7 +93,7 @@
 }
 
 .packages-container {
-  background-image: url('/football.png'); 
+  background-image: url('/basketball.png'); 
   background-size: contain; 
   background-position: center; 
   background-repeat: no-repeat; 

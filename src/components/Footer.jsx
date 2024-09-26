@@ -8,6 +8,9 @@ function Footer() {
         <nav className="footer-nav">
           <ul className="footer-links">
             <li className="footer-item">
+              <a href="#" className="footer-link">Contact</a>
+            </li>
+            <li className="footer-item">
               <a href="#" className="footer-link">Privacy Policy</a>
             </li>
           </ul>
