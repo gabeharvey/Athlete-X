@@ -113,7 +113,7 @@ function Home() {
             _hover={{ transform: 'scale(1.05)', transition: 'transform 0.2s', color: 'gold'}}
           >
             <Icon as={sport.icon} boxSize={6} />
-            <Text fontSize="lg" fontFamily="'Changa', cursive">{sport.label}</Text> 
+            <Text fontSize="md" fontWeight='light' fontFamily="'Changa', cursive">{sport.label}</Text> 
           </Box>
         ))}
       </Slider>
