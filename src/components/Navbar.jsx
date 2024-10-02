@@ -1,25 +1,334 @@
-import '../App.css'; 
+import {
+  Box,
+  Flex,
+  Heading,
+  Spacer,
+  Link,
+  IconButton,
+  useDisclosure,
+  Divider,
+  Text,
+} from '@chakra-ui/react';
+import { CloseIcon } from '@chakra-ui/icons';
+import { Link as RouterLink } from 'react-router-dom';
+import { motion } from 'framer-motion';
+import { CgMenuGridO } from 'react-icons/cg';
+import { useState, useEffect, useRef } from 'react'; // add useContext
+// import { AuthContext } from '../context/AuthContext';
+import '../App.css';
 
-function Navbar() {
+const Navbar = () => {
+  const { isOpen, onOpen, onClose } = useDisclosure();
+  const [showCloseIcon, setShowCloseIcon] = useState(false);
+  // const { isAuthenticated, user, logout } = useContext(AuthContext);
+  const menuRef = useRef();
+
+  useEffect(() => {
+    if (isOpen) {
+      setTimeout(() => setShowCloseIcon(false), 200);
+    } else {
+      setShowCloseIcon(false);
+    }
+  }, [isOpen]);
+
+  useEffect(() => {
+    const handleClickOutside = (event) => {
+      if (menuRef.current && !menuRef.current.contains(event.target)) {
+        onClose();
+      }
+    };
+    document.addEventListener('mousedown', handleClickOutside);
+    return () => {
+      document.removeEventListener('mousedown', handleClickOutside);
+    };
+  }, [onClose]);
+
+  const menuVariants = {
+    hidden: { opacity: 0, x: '100%' },
+    visible: {
+      opacity: 1,
+      x: 0,
+      transition: {
+        delayChildren: 0.5,
+        staggerChildren: 0.5,
+        duration: 0.5,
+        ease: 'easeInOut',
+      },
+    },
+    exit: { opacity: 0, x: '100%' },
+  };
+
+  const itemVariants = {
+    hidden: { opacity: 0 },
+    visible: { opacity: 1 },
+  };
+
   return (
-    <nav className="navbar">
-      <div className="logo">Athlete X</div>
-      <ul className="nav-links">
-        <li className="nav-item">
-          <a href="#" className="nav-link">Home</a>
-        </li>
-        <li className="nav-item">
-          <a href="#" className="nav-link">About</a>
-        </li>
-        <li className="nav-item">
-          <a href="#" className="nav-link">Log In</a>
-        </li>
-        <li className="nav-item">
-          <a href="#" className="nav-link">Sign Up</a>
-        </li>
-      </ul>
-    </nav>
+    <Box
+      bgColor="#2C2C2C"
+      bgImage="linear-gradient(-45deg, black 25%, transparent 25%, transparent 50%, black 50%, black 75%, transparent 75%, transparent)"
+      bgSize="5px 5px;"
+      py="2.5rem"
+      px="2rem"
+      position="relative"
+      boxShadow="lg"
+      mb="10px"
+      fontFamily="'Changa', cursive"
+    >
+      <Flex alignItems="center" justifyContent="space-between" wrap="wrap">
+        <Heading
+          as={RouterLink}
+          to="/"
+          fontSize="4xl"
+          fontFamily="'Tilt Prism', sans-serif"
+          color="#FFFDD0"
+          letterSpacing="wider"
+        >
+          Athlete X
+        </Heading>
+        <Spacer />
+        <IconButton
+          aria-label={isOpen ? 'Close Menu' : 'Open Menu'}
+          icon={
+            showCloseIcon ? (
+              <motion.div
+                whileHover={{ scale: 1.1 }}
+                animate={{ y: [0, -5, 0] }}
+                transition={{ duration: 0.5, repeat: Infinity, repeatType: 'loop' }}
+              >
+                <CloseIcon />
+              </motion.div>
+            ) : (
+              <motion.div
+                whileHover={{ scale: 1.1 }}
+                animate={{ y: [0, -5, 0] }}
+                transition={{ duration: 0.5, repeat: Infinity, repeatType: 'loop' }}
+              >
+                <CgMenuGridO color="#FFFDD0" />
+              </motion.div>
+            )
+          }
+          display={['block', 'block', 'none']}
+          onClick={isOpen ? onClose : onOpen}
+          variant="unstyled"
+          fontSize="30px"
+          color="#FFFDD0"
+          _hover={{ bg: 'none' }}
+          _focus={{ boxShadow: 'none' }}
+          mt="20px"
+          mb="20px"
+        />
+        <Flex
+          as="ul"
+          display={['none', 'none', 'flex']}
+          listStyleType="none"
+          ml="auto"
+          alignItems="center"
+          gap="2rem"
+          flex="1"
+          justifyContent="space-evenly"
+        >
+          <Link
+            as={RouterLink}
+            to="/"
+            fontSize="md"
+            color="#FFFDD0"
+            fontWeight="bold"
+            position="relative"
+            _hover={{
+              textDecoration: 'none',
+              _after: { width: '100%' },
+            }}
+            _after={{
+              content: '""',
+              position: 'absolute',
+              bottom: '-0.2rem',
+              left: 0,
+              width: 0,
+              height: '2px',
+              bg: '#FFFDD0',
+              transition: 'width 0.3s ease',
+            }}
+          >
+            Home
+          </Link>
+          <Link
+            as={RouterLink}
+            to="/about"
+            fontSize="md"
+            color="#FFFDD0"
+            fontWeight="bold"
+            position="relative"
+            _hover={{
+              textDecoration: 'none',
+              _after: { width: '100%' },
+            }}
+            _after={{
+              content: '""',
+              position: 'absolute',
+              bottom: '-0.2rem',
+              left: 0,
+              width: 0,
+              height: '2px',
+              bg: '#FFFDD0',
+              transition: 'width 0.3s ease',
+            }}
+          >
+            About
+          </Link>
+          <Link
+            as={RouterLink}
+            to="/login"
+            fontSize="md"
+            color="#FFFDD0"
+            fontWeight="bold"
+            position="relative"
+            _hover={{
+              textDecoration: 'none',
+              _after: { width: '100%' },
+            }}
+            _after={{
+              content: '""',
+              position: 'absolute',
+              bottom: '-0.2rem',
+              left: 0,
+              width: 0,
+              height: '2px',
+              bg: '#FFFDD0',
+              transition: 'width 0.3s ease',
+            }}
+          >
+            Log In
+          </Link>
+          <Link
+            as={RouterLink}
+            to="/signup"
+            fontSize="md"
+            color="#FFFDD0"
+            fontWeight="bold"
+            position="relative"
+            _hover={{
+              textDecoration: 'none',
+              _after: { width: '100%' },
+            }}
+            _after={{
+              content: '""',
+              position: 'absolute',
+              bottom: '-0.2rem',
+              left: 0,
+              width: 0,
+              height: '2px',
+              bg: '#FFFDD0',
+              transition: 'width 0.3s ease',
+            }}
+          >
+            Sign Up
+          </Link>
+        </Flex>
+
+        {isOpen && (
+          <motion.div initial="hidden" animate="visible" exit="exit" variants={menuVariants}>
+            <Box
+              ref={menuRef}
+              position="fixed"
+              top="0"
+              right="0"
+              width="70%"
+              height="100vh"
+              bg="black" 
+              zIndex="overlay"
+              color="#FFFDD0"
+              borderTopLeftRadius="30px"
+              borderBottomLeftRadius="30px"
+              boxShadow="0 0 15px rgba(0, 0, 0, 0.5)"
+            >
+              <motion.div variants={itemVariants}>
+                <Flex alignItems="center" justifyContent="space-between" mb="1rem">
+                  <Text fontSize="2xl" fontWeight="bold" color="#FFFDD0" ml="20px" mt="20px">
+                    Menu
+                  </Text>
+                  <IconButton
+                    aria-label="Close Menu"
+                    icon={<CloseIcon />}
+                    onClick={onClose}
+                    variant="unstyled"
+                    fontSize="24px"
+                    color="#FFFDD0"
+                    padding="10px"
+                    mr="20px"
+                    mt="20px"
+                  />
+                </Flex>
+                <Divider borderColor="#FFFDD0" />
+                <Flex
+                  direction="column"
+                  alignItems="flex-start"
+                  justifyContent="space-evenly"
+                  h="80%"
+                  ml="20px"
+                  mt="20px"
+                  gap="2rem"
+                >
+                  <Link
+                    as={RouterLink}
+                    to="/"
+                    fontSize="md"
+                    fontWeight="bold"
+                    color="#FFFDD0"
+                    _hover={{
+                      textDecoration: 'none',
+                    }}
+                    onClick={onClose}
+                  >
+                    Home
+                  </Link>
+                  <Link
+                    as={RouterLink}
+                    to="/about"
+                    fontSize="md"
+                    fontWeight="bold"
+                    color="#FFFDD0"
+                    _hover={{
+                      textDecoration: 'none',
+                    }}
+                    onClick={onClose}
+                  >
+                    About
+                  </Link>
+                  <Link
+                    as={RouterLink}
+                    to="/login"
+                    fontSize="md"
+                    fontWeight="bold"
+                    color="#FFFDD0"
+                    _hover={{
+                      textDecoration: 'none',
+                    }}
+                    onClick={onClose}
+                  >
+                    Log In
+                  </Link>
+                  <Link
+                    as={RouterLink}
+                    to="/signup"
+                    fontSize="md"
+                    fontWeight="bold"
+                    color="#FFFDD0"
+                    _hover={{
+                      textDecoration: 'none',
+                    }}
+                    onClick={onClose}
+                  >
+                    Sign Up
+                  </Link>
+                </Flex>
+              </motion.div>
+            </Box>
+          </motion.div>
+        )}
+      </Flex>
+    </Box>
   );
-}
+};
 
 export default Navbar;

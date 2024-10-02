@@ -9,12 +9,19 @@
 .navbar {
   font-family: "Tilt Prism", sans-serif;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-between; 
   align-items: center;
   padding: 10px 20px;
-  background-color: #2C2C2C; 
+  background-color: #2C2C2C;
   background-image: linear-gradient(-45deg, black 25%, transparent 25%, transparent 50%, black 50%, black 75%, transparent 75%, transparent);
   background-size: 5px 5px;
+}
+
+.navbar .nav-links {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 2rem; 
 }
 
 .logo {
