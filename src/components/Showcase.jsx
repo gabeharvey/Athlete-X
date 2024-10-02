@@ -6,7 +6,7 @@ function Card({ frontImg, name, bio }) {
   const [flipped, setFlipped] = useState(false);
 
   return (
-    <Box w="300px" h="400px" perspective="1000px">
+    <Box w="300px" h="400px" perspective="1000px" mb="100px">
       <Box
         w="100%"
         h="100%"
@@ -92,7 +92,7 @@ function Showcase() {
       <Card
         frontImg="../football-player.png" 
         name="John Smith"
-        bio="John Doe is a rising star in football, known for his speed and agility on the field. He has averaged 200 yards rushing per game this season, leading his team to multiple victories."
+        bio="John Smith is a rising star in football, known for his speed and agility on the field. He has averaged 200 yards rushing per game this season, leading his team to multiple victories."
       />
       <Card
         frontImg="../gym-athlete.png" 
