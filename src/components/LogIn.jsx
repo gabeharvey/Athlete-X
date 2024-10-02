@@ -77,7 +77,7 @@ function LogIn() {
           Log In
         </Button>
         <Text mt={6} color="#FFFDD0" fontFamily="'Changa', cursive">
-          Don not have an account?{' '}
+          New to Athlete X?{' '}
           <Button
             variant="link"
             color="#FFA500"

@@ -151,27 +151,6 @@ const Navbar = () => {
           </Link>
           <Link
             as={RouterLink}
-            to="/about"
-            fontSize="md"
-            color="#FFFDD0"
-            fontWeight="bold"
-            position="relative"
-            _hover={{ transform: 'scale(1.05)', transition: 'transform 0.2s', color: 'gold'}}
-            _after={{
-              content: '""',
-              position: 'absolute',
-              bottom: '-0.2rem',
-              left: 0,
-              width: 0,
-              height: '2px',
-              bg: '#FFFDD0',
-              transition: 'width 0.3s ease',
-            }}
-          >
-            About
-          </Link>
-          <Link
-            as={RouterLink}
             to="/login"
             fontSize="md"
             color="#FFFDD0"
@@ -276,17 +255,6 @@ const Navbar = () => {
                     onClick={onClose}
                   >
                     Home
-                  </Link>
-                  <Link
-                    as={RouterLink}
-                    to="/about"
-                    fontSize="md"
-                    fontWeight="bold"
-                    color="#FFFDD0"
-                    _hover={{ transform: 'scale(1.05)', transition: 'transform 0.2s', color: 'gold'}}
-                    onClick={onClose}
-                  >
-                    About
                   </Link>
                   <Link
                     as={RouterLink}
