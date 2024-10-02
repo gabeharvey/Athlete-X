@@ -6,7 +6,7 @@ function Card({ frontImg, name, bio }) {
   const [flipped, setFlipped] = useState(false);
 
   return (
-    <Box w="300px" h="400px" perspective="1000px" mb="100px">
+    <Box w="300px" h="400px" perspective="1000px" mb="10px">
       <Box
         w="100%"
         h="100%"
@@ -88,7 +88,7 @@ function Card({ frontImg, name, bio }) {
 
 function Showcase() {
   return (
-    <VStack spacing={8} align="center" justify="center" p={10} bgImage="url('/basketball.png')" bgSize="contain" bgPosition="center" bgRepeat="no-repeat" h="100vh" mb="200px">
+    <VStack spacing={8} align="center" justify="center" p={10} bgImage="url('/basketball.png')" bgSize="contain" bgPosition="center" bgRepeat="no-repeat" h="100vh" mb="300px">
       <Card
         frontImg="../football-player.png" 
         name="John Smith"
