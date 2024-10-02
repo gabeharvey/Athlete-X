@@ -87,20 +87,20 @@ const Navbar = () => {
           Athlete X
         </Heading>
         <Spacer />
-        <IconButton
+        <IconButton 
           aria-label={isOpen ? 'Close Menu' : 'Open Menu'}
           icon={
             showCloseIcon ? (
               <motion.div
-                whileHover={{ scale: 1.1 }}
+                whileHover={{ scale: 1.2 }}
                 animate={{ y: [0, -5, 0] }}
                 transition={{ duration: 0.5, repeat: Infinity, repeatType: 'loop' }}
               >
                 <CloseIcon />
               </motion.div>
             ) : (
-              <motion.div
-                whileHover={{ scale: 1.1 }}
+              <motion.div 
+                whileHover={{ scale: 1.2 }}
                 animate={{ y: [0, -5, 0] }}
                 transition={{ duration: 0.5, repeat: Infinity, repeatType: 'loop' }}
               >
@@ -113,7 +113,6 @@ const Navbar = () => {
           variant="unstyled"
           fontSize="30px"
           color="#FFFDD0"
-          _hover={{ transform: 'scale(1.05)', transition: 'transform 0.2s', color: 'gold'}}
           _focus={{ boxShadow: 'none' }}
           mt="20px"
           mb="20px"
@@ -236,18 +235,20 @@ const Navbar = () => {
                     Menu
                   </Text>
                   <IconButton
+                    _hover={{ transform: 'scale(1.05)', transition: 'transform 0.2s', color: 'gold'}}
                     aria-label="Close Menu"
                     icon={<CloseIcon />}
                     onClick={onClose}
                     variant="unstyled"
-                    fontSize="24px"
+                    fontSize="20px"
                     color="#FFFDD0"
                     padding="10px"
                     mr="20px"
-                    mt="20px"
+                    mt="12px"
+                    mb="10px"
                   />
                 </Flex>
-                <Divider borderColor="#FFFDD0" />
+                <Divider borderColor="#FFFDD0" fontWeight="bold" />
                 <Flex
                   direction="column"
                   alignItems="flex-start"
