@@ -38,11 +38,13 @@ function Card({ frontImg, name, bio }) {
           </Box>
         </Box>
         <Box
+          bgColor="#2C2C2C"
+          bgImage="linear-gradient(-45deg, black 25%, transparent 25%, transparent 50%, black 50%, black 75%, transparent 75%, transparent)"
+          bgSize="5px 5px;"
           position="absolute"
           style={{ backfaceVisibility: 'hidden' }}
           w="100%"
           h="100%"
-          bgColor="#2C2C2C"
           borderRadius="12px"
           display="flex"
           flexDirection="column"
@@ -90,7 +92,7 @@ function Showcase() {
       <Card
         frontImg="../football-player.png" 
         name="John Smith"
-        bio="John Doe is a rising star in basketball, known for his speed and agility on the court. He has averaged 20 points per game this season, leading his team to multiple victories."
+        bio="John Doe is a rising star in football, known for his speed and agility on the field. He has averaged 200 yards rushing per game this season, leading his team to multiple victories."
       />
       <Card
         frontImg="../gym-athlete.png" 
