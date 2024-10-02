@@ -92,19 +92,21 @@ const Navbar = () => {
           icon={
             showCloseIcon ? (
               <motion.div
-                whileHover={{ scale: 1.2 }}
+                whileHover={{ scale: 1.2, color: 'rgba(255, 215, 0, 1)' }}
                 animate={{ y: [0, -5, 0] }}
                 transition={{ duration: 0.5, repeat: Infinity, repeatType: 'loop' }}
+                style={{ color: '#FFFDD0' }}
               >
                 <CloseIcon />
               </motion.div>
             ) : (
               <motion.div 
-                whileHover={{ scale: 1.2 }}
+                whileHover={{ scale: 1.2, color: 'rgba(255, 215, 0, 1)' }}
                 animate={{ y: [0, -5, 0] }}
                 transition={{ duration: 0.5, repeat: Infinity, repeatType: 'loop' }}
+                style={{ color: '#FFFDD0' }}
               >
-                <CgMenuGridO color="#FFFDD0" />
+                <CgMenuGridO />
               </motion.div>
             )
           }
@@ -112,7 +114,6 @@ const Navbar = () => {
           onClick={isOpen ? onClose : onOpen}
           variant="unstyled"
           fontSize="30px"
-          color="#FFFDD0"
           _focus={{ boxShadow: 'none' }}
           mt="20px"
           mb="20px"
@@ -222,12 +223,14 @@ const Navbar = () => {
               right="0"
               width="70%"
               height="100vh"
-              bg="black" 
+              bgColor="#2C2C2C"
+              bgImage="linear-gradient(-45deg, black 25%, transparent 25%, transparent 50%, black 50%, black 75%, transparent 75%, transparent)"
+              bgSize="5px 5px;"
               zIndex="overlay"
               color="#FFFDD0"
               borderTopLeftRadius="30px"
               borderBottomLeftRadius="30px"
-              boxShadow="0 0 15px rgba(0, 0, 0, 0.5)"
+              boxShadow="0 0 20px rgba(0, 0, 0, 0.9)"
             >
               <motion.div variants={itemVariants}>
                 <Flex alignItems="center" justifyContent="space-between" mb="1rem">
@@ -244,11 +247,16 @@ const Navbar = () => {
                     color="#FFFDD0"
                     padding="10px"
                     mr="20px"
-                    mt="12px"
+                    mt="14px"
                     mb="10px"
                   />
                 </Flex>
-                <Divider borderColor="#FFFDD0" fontWeight="bold" />
+                <Divider 
+                  borderColor="#FFFDD0" 
+                  borderWidth="2px" 
+                  borderStyle="solid" 
+                  opacity="1"
+                />
                 <Flex
                   direction="column"
                   alignItems="flex-start"
