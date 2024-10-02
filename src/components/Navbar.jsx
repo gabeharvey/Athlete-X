@@ -113,7 +113,7 @@ const Navbar = () => {
           variant="unstyled"
           fontSize="30px"
           color="#FFFDD0"
-          _hover={{ bg: 'none' }}
+          _hover={{ transform: 'scale(1.05)', transition: 'transform 0.2s', color: 'gold'}}
           _focus={{ boxShadow: 'none' }}
           mt="20px"
           mb="20px"
@@ -135,10 +135,7 @@ const Navbar = () => {
             color="#FFFDD0"
             fontWeight="bold"
             position="relative"
-            _hover={{
-              textDecoration: 'none',
-              _after: { width: '100%' },
-            }}
+            _hover={{ transform: 'scale(1.05)', transition: 'transform 0.2s', color: 'gold'}}
             _after={{
               content: '""',
               position: 'absolute',
@@ -159,10 +156,7 @@ const Navbar = () => {
             color="#FFFDD0"
             fontWeight="bold"
             position="relative"
-            _hover={{
-              textDecoration: 'none',
-              _after: { width: '100%' },
-            }}
+            _hover={{ transform: 'scale(1.05)', transition: 'transform 0.2s', color: 'gold'}}
             _after={{
               content: '""',
               position: 'absolute',
@@ -183,10 +177,7 @@ const Navbar = () => {
             color="#FFFDD0"
             fontWeight="bold"
             position="relative"
-            _hover={{
-              textDecoration: 'none',
-              _after: { width: '100%' },
-            }}
+            _hover={{ transform: 'scale(1.05)', transition: 'transform 0.2s', color: 'gold'}}
             _after={{
               content: '""',
               position: 'absolute',
@@ -207,10 +198,7 @@ const Navbar = () => {
             color="#FFFDD0"
             fontWeight="bold"
             position="relative"
-            _hover={{
-              textDecoration: 'none',
-              _after: { width: '100%' },
-            }}
+            _hover={{ transform: 'scale(1.05)', transition: 'transform 0.2s', color: 'gold'}}
             _after={{
               content: '""',
               position: 'absolute',
@@ -275,9 +263,7 @@ const Navbar = () => {
                     fontSize="md"
                     fontWeight="bold"
                     color="#FFFDD0"
-                    _hover={{
-                      textDecoration: 'none',
-                    }}
+                    _hover={{ transform: 'scale(1.05)', transition: 'transform 0.2s', color: 'gold'}}
                     onClick={onClose}
                   >
                     Home
@@ -288,9 +274,7 @@ const Navbar = () => {
                     fontSize="md"
                     fontWeight="bold"
                     color="#FFFDD0"
-                    _hover={{
-                      textDecoration: 'none',
-                    }}
+                    _hover={{ transform: 'scale(1.05)', transition: 'transform 0.2s', color: 'gold'}}
                     onClick={onClose}
                   >
                     About
@@ -301,9 +285,7 @@ const Navbar = () => {
                     fontSize="md"
                     fontWeight="bold"
                     color="#FFFDD0"
-                    _hover={{
-                      textDecoration: 'none',
-                    }}
+                    _hover={{ transform: 'scale(1.05)', transition: 'transform 0.2s', color: 'gold'}}
                     onClick={onClose}
                   >
                     Log In
@@ -314,9 +296,7 @@ const Navbar = () => {
                     fontSize="md"
                     fontWeight="bold"
                     color="#FFFDD0"
-                    _hover={{
-                      textDecoration: 'none',
-                    }}
+                    _hover={{ transform: 'scale(1.05)', transition: 'transform 0.2s', color: 'gold'}}
                     onClick={onClose}
                   >
                     Sign Up
