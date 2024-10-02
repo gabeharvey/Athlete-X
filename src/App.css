@@ -303,3 +303,9 @@
 .footer-link:hover {
   color: #FFD700; 
 }
+
+.tilt-prism-footer {
+  font-family: 'Tilt Prism', sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+}
