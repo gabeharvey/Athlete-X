@@ -4,15 +4,19 @@ import '../App.css';
 function About() {
   const [isVisible, setIsVisible] = useState(false);
   const [isH2Visible, setIsH2Visible] = useState(false);
+  const [isH3Visible, setIsH3Visible] = useState(false);
   const [isButtonVisible, setIsButtonVisible] = useState(true); 
   const audioRef = useRef(null); 
+
   const handleStart = () => {
     setIsVisible(true); 
     audioRef.current.play(); 
     setTimeout(() => {
       setIsH2Visible(true);
     }, 3000);
-
+    setTimeout(() => {
+      setIsH3Visible(true);
+    }, 6000); 
     setIsButtonVisible(false); 
   };
 
@@ -30,6 +34,14 @@ function About() {
       <h2 className={isH2Visible ? 'zoom-in' : ''}>
         Mobile friendly, yet responsive app showcasing athletic abilities.
       </h2>
+      <div className="fancy-divider"></div>
+      {isH3Visible && (
+        <div className="zoom-in">
+          <h3>
+            It is crucial to stand out! The talent and skills are there. People want to see it quickly and First Class!
+          </h3>
+        </div>
+      )}
       <audio ref={audioRef} src="/outdoor-basketball-bounce.mp3" preload="auto" />
     </div>
   );

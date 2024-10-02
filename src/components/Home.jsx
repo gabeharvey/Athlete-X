@@ -47,7 +47,7 @@ const CustomNextArrow = ({ onClick }) => {
   );
 };  
 
-function Home() {
+function Carousel() {
   const settings = {
     dots: false,
     infinite: true,
@@ -121,4 +121,4 @@ function Home() {
   );
 }
 
-export default Home;
+export default Carousel;
