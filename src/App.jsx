@@ -3,6 +3,7 @@ import Navbar from '../src/components/Navbar.jsx';
 import Footer from '../src/components/Footer.jsx';
 import Home from '../src/components/Home.jsx';
 import About from '../src/components/About.jsx';
+import Showcase from './components/Showcase.jsx';
 import Packages from '../src/components/Packages.jsx';
 
 const theme = extendTheme({
@@ -23,6 +24,7 @@ function App() {
         <Navbar />
         <Home />
         <About />
+        <Showcase />
         <Packages />
         <Footer />
       </div>
