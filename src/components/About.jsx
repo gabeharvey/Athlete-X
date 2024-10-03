@@ -11,14 +11,16 @@ function About() {
   const handleStart = () => {
     setIsVisible(true); 
     audioRef.current.play(); 
-    setTimeout(() => {
-      setIsH2Visible(true);
-    }, 3000);
-    setTimeout(() => {
-      setIsH3Visible(true);
-    }, 6000); 
+    requestAnimationFrame(() => {
+      setTimeout(() => {
+        setIsH2Visible(true);
+      }, 3000);
+      setTimeout(() => {
+        setIsH3Visible(true);
+      }, 6000);
+    });
     setIsButtonVisible(false); 
-  };
+  };  
 
   return (
     <div className="about-container">
