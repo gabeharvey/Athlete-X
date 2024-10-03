@@ -89,6 +89,9 @@ function Card({ frontImg, name, bio }) {
 function Showcase() {
   return (
     <VStack spacing={8} align="center" justify="center" p={10} bgImage="url('/basketball.png')" bgSize="contain" bgPosition="center" bgRepeat="no-repeat" h="100vh" mb="300px">
+      <Text fontSize="3xl" color="#FFFDD0" fontFamily="'Changa', cursive">
+        Click on Card
+      </Text>
       <Card
         frontImg="../football-player.png" 
         name="John Smith"
