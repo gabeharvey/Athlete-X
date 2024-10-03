@@ -6,7 +6,7 @@ const Contact = () => {
       spacing={8}
       align="center"
       justify="center"
-      p={10}
+      p={[5, 10]}  // Adjust padding for small (mobile) and larger screens
       bgImage="url('/basketball.png')" 
       bgSize="contain"
       bgPosition="center"
@@ -19,8 +19,9 @@ const Contact = () => {
         bgImage="linear-gradient(-45deg, black 25%, transparent 25%, transparent 50%, black 50%, black 75%, transparent 75%, transparent)"
         bgSize="5px 5px;"
         borderRadius="12px"
-        p={8}
-        w="400px"
+        p={[5, 8]}  // Adjust padding for mobile and larger screens
+        w={["90%", "90%", "400px"]}  // Use 90% for small screens, maintaining it for medium sizes
+        maxW="400px" // Set a max width to avoid overflow on larger screens
         textAlign="center"
         boxShadow="0 0 15px rgba(0, 0, 0, 0.7)"
         transition="transform 0.3s, box-shadow 0.3s"
@@ -29,7 +30,7 @@ const Contact = () => {
           boxShadow: '0 8px 16px rgba(0, 0, 0, 0.9)',
         }}
       >
-        <Text fontSize="2xl" fontWeight="bold" color="#FFFDD0" fontFamily="'Changa', cursive">
+        <Text fontSize={["xl", "2xl"]} fontWeight="bold" color="#FFFDD0" fontFamily="'Changa', cursive">
           Contact Us
         </Text>
 
