@@ -1,4 +1,5 @@
-import { Box, Text, Button, VStack, Input, FormControl, FormLabel } from '@chakra-ui/react';
+import { Box, Text, Button, VStack, Input, FormControl, FormLabel, Link } from '@chakra-ui/react';
+import { Link as RouterLink } from 'react-router-dom';
 
 function LogIn() {
   return (
@@ -30,32 +31,45 @@ function LogIn() {
         }}
       >
         <Text fontSize="2xl" fontWeight="bold" color="#FFFDD0" fontFamily="'Changa', cursive">
-          Login
+          Log In
         </Text>
+
         <FormControl mt={6}>
-          <FormLabel color="#FFFDD0" fontFamily="'Changa', cursive">Email</FormLabel>
+          <FormLabel color="#FFFDD0" fontFamily="'Changa', cursive">
+            Email
+          </FormLabel>
           <Input
+            fontFamily="'Changa', cursive"
             type="email"
             placeholder="Enter your email"
             bg="transparent"
-            color="#FFFDD0"
-            borderColor="#FFFDD0"
+            color="white"
+            borderColor="#FFA500"
             _hover={{ borderColor: '#FFA500' }}
             _focus={{ borderColor: '#FFA500', boxShadow: '0 0 5px #FFA500' }}
+            borderRadius="8px"
+            p={4}
           />
         </FormControl>
+
         <FormControl mt={6}>
-          <FormLabel color="#FFFDD0" fontFamily="'Changa', cursive">Password</FormLabel>
+          <FormLabel color="#FFFDD0" fontFamily="'Changa', cursive">
+            Password
+          </FormLabel>
           <Input
+            fontFamily="'Changa', cursive"
             type="password"
             placeholder="Enter your password"
             bg="transparent"
-            color="#FFFDD0"
-            borderColor="#FFFDD0"
+            color="white"
+            borderColor="#FFA500"
             _hover={{ borderColor: '#FFA500' }}
             _focus={{ borderColor: '#FFA500', boxShadow: '0 0 5px #FFA500' }}
+            borderRadius="8px"
+            p={4}
           />
         </FormControl>
+
         <Button
           mt={8}
           fontFamily="'Tilt Prism', sans-serif"
@@ -76,17 +90,19 @@ function LogIn() {
         >
           Log In
         </Button>
+
         <Text mt={6} color="#FFFDD0" fontFamily="'Changa', cursive">
-          New to Athlete X?{' '}
-          <Button
-            variant="link"
+          New to <span className="login-logo">Athlete X</span>?{' '}
+          <Link
+            as={RouterLink}
+            to="/signup"
             color="#FFA500"
             fontWeight="bold"
             fontFamily="'Changa', cursive"
-            onClick={() => alert('Redirect to Sign Up page')}
+            _hover={{ textDecoration: 'underline' }}
           >
             Sign Up
-          </Button>
+          </Link>
         </Text>
       </Box>
     </VStack>

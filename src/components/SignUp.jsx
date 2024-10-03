@@ -1,4 +1,5 @@
-import { Box, Button, Input, VStack, Text } from '@chakra-ui/react';
+import { Box, Button, Input, VStack, Text, FormControl, FormLabel, Link } from '@chakra-ui/react';
+import { Link as RouterLink } from 'react-router-dom';
 
 function SignUp() {
   return (
@@ -32,43 +33,52 @@ function SignUp() {
           Sign Up
         </Text>
 
-        <Input
-          mt={6}
-          placeholder="Full Name"
-          color="white"
-          borderColor="#FFA500"
-          _hover={{ borderColor: '#FFA500' }}
-          _focus={{ borderColor: '#FFA500' }}
-          bg="transparent"
-          borderRadius="8px"
-          p={4}
-        />
+        <FormControl mt={6}>
+          <FormLabel color="#FFFDD0" fontFamily="'Changa', cursive">Full Name</FormLabel>
+          <Input
+            fontFamily="'Changa', cursive"
+            placeholder="Enter your full name"
+            color="white"
+            borderColor="#FFA500"
+            _hover={{ borderColor: '#FFA500' }}
+            _focus={{ borderColor: '#FFA500' }}
+            bg="transparent"
+            borderRadius="8px"
+            p={4}
+          />
+        </FormControl>
 
-        <Input
-          mt={6}
-          placeholder="Email"
-          type="email"
-          color="white"
-          borderColor="#FFA500"
-          _hover={{ borderColor: '#FFA500' }}
-          _focus={{ borderColor: '#FFA500' }}
-          bg="transparent"
-          borderRadius="8px"
-          p={4}
-        />
+        <FormControl mt={6}>
+          <FormLabel color="#FFFDD0" fontFamily="'Changa', cursive">Email</FormLabel>
+          <Input
+            fontFamily="'Changa', cursive"
+            type="email"
+            placeholder="Enter your email"
+            color="white"
+            borderColor="#FFA500"
+            _hover={{ borderColor: '#FFA500' }}
+            _focus={{ borderColor: '#FFA500' }}
+            bg="transparent"
+            borderRadius="8px"
+            p={4}
+          />
+        </FormControl>
 
-        <Input
-          mt={6}
-          placeholder="Password"
-          type="password"
-          color="white"
-          borderColor="#FFA500"
-          _hover={{ borderColor: '#FFA500' }}
-          _focus={{ borderColor: '#FFA500' }}
-          bg="transparent"
-          borderRadius="8px"
-          p={4}
-        />
+        <FormControl mt={6}>
+          <FormLabel color="#FFFDD0" fontFamily="'Changa', cursive">Password</FormLabel>
+          <Input
+            fontFamily="'Changa', cursive"
+            type="password"
+            placeholder="Enter your password"
+            color="white"
+            borderColor="#FFA500"
+            _hover={{ borderColor: '#FFA500' }}
+            _focus={{ borderColor: '#FFA500' }}
+            bg="transparent"
+            borderRadius="8px"
+            p={4}
+          />
+        </FormControl>
 
         <Button
           mt={6}
@@ -90,6 +100,13 @@ function SignUp() {
         >
           Create Account
         </Button>
+
+        <Text mt={4} color="#FFFDD0" fontFamily="'Changa', cursive">
+          Already a member?{' '}
+          <Link as={RouterLink} to="/login" color="#FFA500" fontWeight="bold" _hover={{ textDecoration: 'underline' }}>
+            Log In
+          </Link>
+        </Text>
       </Box>
     </VStack>
   );
