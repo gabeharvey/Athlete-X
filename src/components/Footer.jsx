@@ -11,7 +11,7 @@ function Footer() {
               <a href="#" className="footer-link">Contact</a>
             </li>
             <li className="footer-item">
-              <a href="#" className="footer-link">Privacy Policy</a>
+              <a href="/privacypolicy" className="footer-link">Privacy Policy</a>
             </li>
           </ul>
         </nav>
