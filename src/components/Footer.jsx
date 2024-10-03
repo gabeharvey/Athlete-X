@@ -1,4 +1,4 @@
-import '../App.css'; 
+import { Link } from 'react-router-dom';
 
 function Footer() {
   return (
@@ -8,10 +8,10 @@ function Footer() {
         <nav className="footer-nav">
           <ul className="footer-links">
             <li className="footer-item">
-              <a href="/contact" className="footer-link">Contact</a>
+              <Link to="/contact" className="footer-link">Contact</Link>
             </li>
             <li className="footer-item">
-              <a href="/privacypolicy" className="footer-link">Privacy Policy</a>
+              <Link to="/privacypolicy" className="footer-link">Privacy Policy</Link>
             </li>
           </ul>
         </nav>
