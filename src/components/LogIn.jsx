@@ -13,7 +13,6 @@ function LogIn() {
       bgPosition="center"
       bgRepeat="no-repeat"
       h="100vh"
-      mb="200px"
     >
       <Box
         bgColor="#2C2C2C"
