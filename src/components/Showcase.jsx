@@ -5,6 +5,13 @@ import { useState } from 'react';
 function Card({ frontImg, name, bio }) {
   const [flipped, setFlipped] = useState(false);
 
+  const flipSound = new Audio('/card-flip.mp3');
+
+  const handleFlip = () => {
+    flipSound.play();
+    setFlipped(!flipped);
+  };
+
   return (
     <Box w="300px" h="400px" perspective="1000px" mb="10px">
       <Box
@@ -14,7 +21,7 @@ function Card({ frontImg, name, bio }) {
         style={{ transformStyle: 'preserve-3d' }}
         transition="transform 0.6s"
         transform={flipped ? 'rotateY(180deg)' : 'rotateY(0deg)'}
-        onClick={() => setFlipped(!flipped)} 
+        onClick={handleFlip} 
       >
         <Box
           position="absolute"
@@ -34,8 +41,7 @@ function Card({ frontImg, name, bio }) {
             display="flex"
             alignItems="center"
             justifyContent="center"
-          >
-          </Box>
+          ></Box>
         </Box>
         <Box
           bgColor="#2C2C2C"
@@ -51,7 +57,7 @@ function Card({ frontImg, name, bio }) {
           alignItems="center"
           justifyContent="center"
           boxShadow="0 0 15px rgba(0, 0, 0, 0.7)"
-          transform="rotateY(180deg)" 
+          transform="rotateY(180deg)"
           p={5}
         >
           <Text fontSize="2xl" fontWeight="bold" color="#FFFDD0" fontFamily="'Changa', cursive">
