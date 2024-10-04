@@ -28,7 +28,7 @@ function About() {
         </button>
       )}
       <h1 className={isVisible ? 'zoom-in' : ''}>
-        Welcome to <span className="tilt-prism">Athlete X</span>! You have done all the hard work and sacrifice. Allow us to present your Elite Athlete to the world!
+        Welcome to <span className="tilt-prism">Athlete X Elite</span>! You have done all the hard work and sacrifice. Allow us to present your Elite Athlete to the world!
       </h1>
       <div className="fancy-divider"></div>
       <h2 className={isH2Visible ? 'zoom-in' : ''}>
