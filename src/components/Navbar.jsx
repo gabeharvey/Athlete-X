@@ -84,7 +84,7 @@ const Navbar = () => {
           color="#FFFDD0"
           letterSpacing="wider"
         >
-          Athlete X
+          Athlete X Elite
         </Heading>
         <Spacer />
         <IconButton 

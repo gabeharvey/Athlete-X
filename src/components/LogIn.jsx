@@ -91,7 +91,7 @@ function LogIn() {
         </Button>
 
         <Text mt={6} color="#FFFDD0" fontFamily="'Changa', cursive">
-          New to <span className="login-logo">Athlete X</span>?{' '}
+          New to <span className="login-logo">Athlete X Elite</span>?{' '}
           <Link
             as={RouterLink}
             to="/signup"

@@ -4,7 +4,7 @@ function Footer() {
   return (
     <footer className="footer">
       <div className="footer-content">
-        <div className="footer-logo">©2024 <span className="tilt-prism-footer">Athlete X</span>. All Rights Reserved.</div>
+        <div className="footer-logo">©2024 <span className="tilt-prism-footer">Athlete X Elite LLC</span>. All Rights Reserved.</div>
         <nav className="footer-nav">
           <ul className="footer-links">
             <li className="footer-item">
