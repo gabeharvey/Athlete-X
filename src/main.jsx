@@ -18,6 +18,7 @@ import Hockey from './components/Hockey.jsx';
 import Skiing from './components/Skiing.jsx';
 import Track from './components/Track.jsx';
 import Biking from './components/Biking.jsx';
+import Weightlifting from './components/Weightlifting.jsx';
 
 const theme = extendTheme({
   styles: {
@@ -49,6 +50,7 @@ const router = createBrowserRouter([
       { path: 'skiing', element: <Skiing /> },
       { path: 'track', element: <Track /> },
       { path: 'biking', element: <Biking /> },
+      { path: 'weightlifting', element: <Weightlifting /> },
     ],
   },
 ]);

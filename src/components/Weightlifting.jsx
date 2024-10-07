@@ -1,13 +1,13 @@
 import { Box, Text, Button, VStack } from '@chakra-ui/react';
 
-function Biking() {
+function Weightlifting() {
   return (
     <VStack
       spacing={8}
       align="center"
       justify="center"
       p={10}
-      bgImage="url('/biking.png')" 
+      bgImage="url('/weightlifting.png')" 
       bgSize="contain"
       bgPosition="center"
       bgRepeat="no-repeat"
@@ -31,13 +31,13 @@ function Biking() {
         }}
       >
         <Text fontSize="2xl" fontWeight="bold" color="#FFFDD0" fontFamily="'Changa', cursive">
-          Building a Strong Biking Profile
+          Importance of a Weightlifting Profile
         </Text>
         <Text mt={4} color="#FFFDD0" fontFamily="'Changa', cursive">
-          A comprehensive biking profile is crucial for attracting the attention of coaches and sponsors. Highlight your rides, events, and achievements to showcase your skills.
+          A solid weightlifting profile is essential for attracting coaches and potential sponsors. It showcases your strength, technique, and dedication to the sport.
         </Text>
         <Text mt={4} color="#FFFDD0" fontFamily="'Changa', cursive">
-          Displaying your commitment to training and performance can lead to valuable opportunities in the cycling community.
+          Highlighting your training regimen and competition results can significantly enhance your visibility in the weightlifting community.
         </Text>
       </Box>
       <Box
@@ -56,13 +56,13 @@ function Biking() {
         }}
       >
         <Text fontSize="2xl" fontWeight="bold" color="#FFFDD0" fontFamily="'Changa', cursive">
-          The Power of Highlight Videos
+          The Power of Training Videos
         </Text>
         <Text mt={4} color="#FFFDD0" fontFamily="'Changa', cursive">
-          Highlight videos are essential in showcasing your biking skills and technique. They provide a compelling visual summary for coaches to evaluate your performance.
+          Training videos are vital for demonstrating your lifting techniques and progress. They provide coaches with an insight into your performance and capabilities.
         </Text>
         <Text mt={4} color="#FFFDD0" fontFamily="'Changa', cursive">
-          A well-edited video can effectively communicate your speed, agility, and passion for the sport, enhancing your visibility in the biking community.
+          A well-edited video can highlight your strength, determination, and commitment, positioning you as a serious contender in the weightlifting arena.
         </Text>
         <Button
           mt={6}
@@ -89,4 +89,4 @@ function Biking() {
   );
 }
 
-export default Biking;
+export default Weightlifting;
