@@ -1,13 +1,13 @@
 import { Box, Text, Button, VStack } from '@chakra-ui/react';
 
-function Track() {
+function Swimming() {
   return (
     <VStack
       spacing={8}
       align="center"
       justify="center"
       p={10}
-      bgImage="url('/track.png')" 
+      bgImage="url('/swimming.png')" 
       bgSize="contain"
       bgPosition="center"
       bgRepeat="no-repeat"
@@ -18,7 +18,7 @@ function Track() {
       <Box
         bgColor="#2C2C2C"
         bgImage="linear-gradient(-45deg, black 25%, transparent 25%, transparent 50%, black 50%, black 75%, transparent 75%, transparent)"
-        bgSize="5px 5px;"
+        bgSize="5px 5px"
         borderRadius="12px"
         p={8}
         w="350px"
@@ -31,19 +31,19 @@ function Track() {
         }}
       >
         <Text fontSize="2xl" fontWeight="bold" color="#FFFDD0" fontFamily="'Changa', cursive">
-          Crafting a Winning Track Profile
+          Importance of a Swimming Profile
         </Text>
         <Text mt={4} color="#FFFDD0" fontFamily="'Changa', cursive">
-          A strong track profile is vital for capturing the attention of college coaches. Highlight your times, events, and achievements to stand out.
+          A well-crafted swimming profile is essential for showcasing your skills and achievements to college coaches and recruiters. It serves as a comprehensive overview of your performance, including times, events, and awards.
         </Text>
         <Text mt={4} color="#FFFDD0" fontFamily="'Changa', cursive">
-          Showcase your dedication to training and your competitive spirit, paving the way for scholarship opportunities.
+          With an engaging profile, you can effectively highlight your dedication, work ethic, and commitment to the sport, making it easier for coaches to recognize your potential.
         </Text>
       </Box>
       <Box
         bgColor="#2C2C2C"
         bgImage="linear-gradient(-45deg, black 25%, transparent 25%, transparent 50%, black 50%, black 75%, transparent 75%, transparent)"
-        bgSize="5px 5px;"
+        bgSize="5px 5px"
         borderRadius="12px"
         p={8}
         w="350px"
@@ -56,13 +56,13 @@ function Track() {
         }}
       >
         <Text fontSize="2xl" fontWeight="bold" color="#FFFDD0" fontFamily="'Changa', cursive">
-          Highlighting Your Track Performance
+          The Role of Swim Videos
         </Text>
         <Text mt={4} color="#FFFDD0" fontFamily="'Changa', cursive">
-          Highlight videos are essential for showcasing your speed and technique. They provide a visual snapshot of your potential.
+          Including swim videos in your profile is a powerful way to demonstrate your technique, speed, and competitive spirit. Videos provide coaches with a visual reference to assess your skills in action.
         </Text>
         <Text mt={4} color="#FFFDD0" fontFamily="'Changa', cursive">
-          A compelling highlight reel can demonstrate your capabilities and determination, helping you to stand out in the recruiting process.
+          A well-edited highlight reel can effectively showcase your strengths and versatility, enhancing your chances of being noticed by top programs.
         </Text>
         <Button
           mt={6}
@@ -89,4 +89,4 @@ function Track() {
   );
 }
 
-export default Track;
+export default Swimming;
