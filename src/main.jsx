@@ -13,6 +13,7 @@ import Football from './components/Football.jsx';
 import Baseball from './components/Baseball.jsx';
 import Volleyball from './components/Volleyball.jsx';
 import Golf from './components/Golf.jsx';
+import TableTennis from './components/TableTennis.jsx';
 
 const theme = extendTheme({
   styles: {
@@ -39,6 +40,7 @@ const router = createBrowserRouter([
       { path: 'baseball', element: <Baseball /> },
       { path: 'volleyball', element: <Volleyball /> },
       { path: 'golf', element: <Golf /> },
+      { path: 'tabletennis', element: <TableTennis /> },
     ],
   },
 ]);

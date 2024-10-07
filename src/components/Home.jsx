@@ -85,7 +85,7 @@ function Home() {
     { icon: FaBaseballBall, label: 'Baseball' },
     { icon: FaVolleyballBall, label: 'Volleyball' },
     { icon: FaGolfBall, label: 'Golf' },
-    { icon: FaTableTennis, label: 'Table Tennis' },
+    { icon: FaTableTennis, label: 'TableTennis' },
     { icon: FaHockeyPuck, label: 'Hockey' },
     { icon: FaSkiing, label: 'Skiing' },
     { icon: FaRunning, label: 'Track' },
