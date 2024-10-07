@@ -1,19 +1,19 @@
 import { Box, Text, Button, VStack } from '@chakra-ui/react';
 
-function Basketball() {
+function Soccer() {
   return (
     <VStack
       spacing={8}
       align="center"
       justify="center"
       p={10}
-      bgImage="url('/basketball.png')" 
+      bgImage="url('/soccer.png')" 
       bgSize="contain"
       bgPosition="center"
       bgRepeat="no-repeat"
       h="100vh"
-      mb="100px"
-      mt="100px"
+      mb="200px"
+      mt="200px"
     >
       <Box
         bgColor="#2C2C2C"
@@ -31,13 +31,13 @@ function Basketball() {
         }}
       >
         <Text fontSize="2xl" fontWeight="bold" color="#FFFDD0" fontFamily="'Changa', cursive">
-          Importance of a Basketball Profile
+          Importance of a Soccer Profile
         </Text>
         <Text mt={4} color="#FFFDD0" fontFamily="'Changa', cursive">
-          A well-structured basketball profile is essential for catching the eye of college coaches and recruiters. It provides a detailed overview of your skills, achievements, and gameplay statistics.
+          A well-crafted soccer profile is crucial for attracting the attention of college coaches and recruiters. It provides a comprehensive overview of your skills, game statistics, and accomplishments.
         </Text>
         <Text mt={4} color="#FFFDD0" fontFamily="'Changa', cursive">
-          With a professionally crafted profile, you can showcase your commitment, skills, and potential, significantly enhancing your chances of securing a scholarship or a spot on a team.
+          With a professional profile, you can effectively showcase your dedication, teamwork, and performance on the field, increasing your chances of earning a scholarship or a spot on a team.
         </Text>
       </Box>
       <Box
@@ -56,13 +56,13 @@ function Basketball() {
         }}
       >
         <Text fontSize="2xl" fontWeight="bold" color="#FFFDD0" fontFamily="'Changa', cursive">
-          The Value of Highlight Reels
+          The Role of Game Highlights
         </Text>
         <Text mt={4} color="#FFFDD0" fontFamily="'Changa', cursive">
-          Highlight reels play a critical role in showcasing your skills to recruiters. They offer a concise view of your athleticism, court awareness, and technical skills, allowing coaches to evaluate your potential.
+          Highlight reels are vital for showcasing your skills and playing style to recruiters. They allow coaches to see your game awareness, technical ability, and how you perform under pressure.
         </Text>
         <Text mt={4} color="#FFFDD0" fontFamily="'Changa', cursive">
-          A well-edited highlight video can significantly enhance your profile, helping you stand out as a talented player and providing a visual reference to complement your achievements.
+          A well-produced video can effectively illustrate your strengths on the field, positioning you as a standout player and providing valuable insights into your potential.
         </Text>
         <Button
           mt={6}
@@ -89,4 +89,4 @@ function Basketball() {
   );
 }
 
-export default Basketball;
+export default Soccer;
