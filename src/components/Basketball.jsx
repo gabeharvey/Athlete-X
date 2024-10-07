@@ -12,8 +12,8 @@ function Basketball() {
       bgPosition="center"
       bgRepeat="no-repeat"
       h="100vh"
-      mb="100px"
-      mt="100px"
+      mb="200px"
+      mt="200px"
     >
       <Box
         bgColor="#2C2C2C"
