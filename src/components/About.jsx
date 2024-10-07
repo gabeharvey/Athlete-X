@@ -1,5 +1,6 @@
 import { useState, useRef } from 'react';
 import '../App.css';
+import { Link } from 'react-router-dom';
 
 function About() {
   const [isVisible, setIsVisible] = useState(false);
@@ -42,6 +43,14 @@ function About() {
           </h3>
         </div>
       )}
+      <p className="centered-text">
+        Do not see your sport listed? <span className="tilt-prism">Athlete X Elite</span> has you covered! 
+        <Link to="/contact" style={{ marginLeft: '5px', color: '#FFA500', textDecoration: 'underline' }}>
+          Contact
+        </Link> 
+        {' '} 
+        us for more information!
+      </p>
       <audio ref={audioRef} src="/outdoor-basketball-bounce.mp3" preload="auto" />
     </div>
   );
