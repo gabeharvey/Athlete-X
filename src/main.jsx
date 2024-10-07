@@ -10,6 +10,7 @@ import PrivacyPolicy from './components/PrivacyPolicy.jsx';
 import Contact from './components/Contact.jsx';
 import Basketball from './components/Basketball.jsx';
 import Football from './components/Football.jsx';
+import Volleyball from './components/Volleyball.jsx';
 
 const theme = extendTheme({
   styles: {
@@ -33,6 +34,7 @@ const router = createBrowserRouter([
       { path: 'contact', element: <Contact /> }, 
       { path: 'basketball', element: <Basketball /> },
       { path: 'football', element: <Football /> },
+      { path: 'volleyball', element: <Volleyball /> },
     ],
   },
 ]);
