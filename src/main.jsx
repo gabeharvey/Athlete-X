@@ -8,6 +8,7 @@ import LogIn from './components/LogIn.jsx';
 import SignUp from './components/SignUp.jsx';  
 import PrivacyPolicy from './components/PrivacyPolicy.jsx';
 import Contact from './components/Contact.jsx';
+import Basketball from './components/Basketball.jsx';
 
 const theme = extendTheme({
   styles: {
@@ -29,6 +30,7 @@ const router = createBrowserRouter([
       { path: 'signup', element: <SignUp /> }, 
       { path: 'privacypolicy', element: <PrivacyPolicy /> }, 
       { path: 'contact', element: <Contact /> }, 
+      { path: 'basketball', element: <Basketball /> },
     ],
   },
 ]);

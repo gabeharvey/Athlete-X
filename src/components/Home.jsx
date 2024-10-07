@@ -8,6 +8,7 @@ import {
 } from 'react-icons/fa'; 
 import "slick-carousel/slick/slick.css"; 
 import "slick-carousel/slick/slick-theme.css";
+import { Link } from 'react-router-dom';
 
 const CustomPrevArrow = ({ onClick }) => {
   return (
@@ -109,11 +110,13 @@ function Home() {
             fontWeight="bold"
             color="#FFFDD0"
             backgroundImage="linear-gradient(-45deg, black 25%, transparent 25%, transparent 50%, black 50%, black 75%, transparent 75%, transparent)"
-            backgroundSize="5px 5px"  
-            _hover={{ transform: 'scale(1.05)', transition: 'transform 0.2s', color: 'gold'}}
+            backgroundSize="5px 5px"
+            _hover={{ transform: 'scale(1.05)', transition: 'transform 0.2s', color: 'gold' }}
           >
-            <Icon as={sport.icon} boxSize={6} />
-            <Text fontSize="md" fontWeight='light' fontFamily="'Changa', cursive">{sport.label}</Text> 
+            <Link to={`/${sport.label.toLowerCase()}`}>
+              <Icon as={sport.icon} boxSize={6} />
+              <Text fontSize="md" fontWeight='light' fontFamily="'Changa', cursive">{sport.label}</Text>
+            </Link>
           </Box>
         ))}
       </Slider>
