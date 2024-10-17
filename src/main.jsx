@@ -21,6 +21,7 @@ import Biking from './components/Biking.jsx';
 import Weightlifting from './components/Weightlifting.jsx';
 import Swimming from './components/Swimming.jsx';
 import Soccer from './components/Soccer.jsx';
+import Elite from './components/Elite.jsx';
 
 const theme = extendTheme({
   styles: {
@@ -55,6 +56,7 @@ const router = createBrowserRouter([
       { path: 'weightlifting', element: <Weightlifting /> },
       { path: 'swimming', element: <Swimming /> },
       { path: 'soccer', element: <Soccer /> },
+      { path: 'elite', element: <Elite /> },
     ],
   },
 ]);

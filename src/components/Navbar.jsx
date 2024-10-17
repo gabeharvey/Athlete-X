@@ -191,6 +191,27 @@ const Navbar = () => {
           >
             Sign Up
           </Link>
+          <Link
+            as={RouterLink}
+            to="/elite"
+            fontSize="md"
+            color="#FFFDD0"
+            fontWeight="bold"
+            position="relative"
+            _hover={{ transform: 'scale(1.05)', transition: 'transform 0.2s', color: 'gold'}}
+            _after={{
+              content: '""',
+              position: 'absolute',
+              bottom: '-0.2rem',
+              left: 0,
+              width: 0,
+              height: '2px',
+              bg: '#FFFDD0',
+              transition: 'width 0.3s ease',
+            }}
+          >
+            Elite
+          </Link>
         </Flex>
 
         {isOpen && (
@@ -277,6 +298,17 @@ const Navbar = () => {
                     onClick={onClose}
                   >
                     Sign Up
+                  </Link>
+                  <Link
+                    as={RouterLink}
+                    to="/signup"
+                    fontSize="md"
+                    fontWeight="bold"
+                    color="#FFFDD0"
+                    _hover={{ transform: 'scale(1.05)', transition: 'transform 0.2s', color: 'gold'}}
+                    onClick={onClose}
+                  >
+                    Elite
                   </Link>
                 </Flex>
               </motion.div>
