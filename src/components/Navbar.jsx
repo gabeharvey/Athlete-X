@@ -301,7 +301,7 @@ const Navbar = () => {
                   </Link>
                   <Link
                     as={RouterLink}
-                    to="/signup"
+                    to="/elite"
                     fontSize="md"
                     fontWeight="bold"
                     color="#FFFDD0"
