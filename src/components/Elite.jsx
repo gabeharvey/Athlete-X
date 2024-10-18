@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unescaped-entities */
 /* eslint-disable react/prop-types */
 import { Box, Text, Button, VStack, SimpleGrid } from '@chakra-ui/react';
 import { useState } from 'react';
@@ -21,7 +22,7 @@ function Card({ frontImg, name, bio, bioLink }) {
         style={{ transformStyle: 'preserve-3d' }}
         transition="transform 0.6s"
         transform={flipped ? 'rotateY(180deg)' : 'rotateY(0deg)'}
-        onClick={handleFlip} 
+        onClick={handleFlip}
       >
         <Box
           position="absolute"
@@ -100,46 +101,137 @@ function Elite() {
   return (
     <VStack spacing={8} align="center" justify="center" p={10} bgImage="url('/basketball.png')" bgSize="contain" bgPosition="center" bgRepeat="no-repeat" minH="100vh" mb="300px">
       <Text fontSize="3xl" color="#FFFDD0" fontFamily="'Changa', cursive">
-        Meet Our Elite Athletes
+        Meet Elite Athletes
       </Text>
-      <SimpleGrid columns={[1, 2, 3]} spacing={10}>
+      <Text fontSize="2xl" color="#FFFDD0" fontFamily="'Bungee', sans-serif" mt={6}>
+        Football
+      </Text>
+      <SimpleGrid columns={[1, 2, 3]} spacing={10} justifyItems="center" alignItems="center">
         <Card
-          frontImg="charlie-1.png" 
-          name="Charlie Harvey"
-          bio="Charlie Harvey is a promising young hockey player known for his quick reflexes and powerful shots. His ability to anticipate the flow of the game makes him a key player in both offensive and defensive situations."
-          bioLink="https://charlie-harvey.netlify.app"
+          frontImg="michael-1.png"
+          name="Michael Terry III"
+          bio="Michael Terry III is a rising star in football, an extremely rare blend of speed, agility, size and strength on the field. He has led Alamo Heights HS to many victories this season."
+          bioLink="https://michael-terry-III.netlify.app"
         />
-        <Card
-          frontImg="basketball-placeholder.png" 
-          name="Ella Ramirez"
-          bio="Ella Ramirez is a versatile player with excellent court vision and leadership skills. She is known for her ability to perform under pressure, making her a valuable asset to any team."
-          bioLink="https://ella-ramirez.netlify.app"
-        />
+        {/* Add more football cards as needed */}
+      </SimpleGrid>
+      <Text fontSize="2xl" color="#FFFDD0" fontFamily="'Coda', system-ui" mt={6}>
+        Men's Basketball
+      </Text>
+      <SimpleGrid columns={[1, 2, 3]} spacing={10} justifyItems="center" alignItems="center">
         <Card
           frontImg="logan-6.png"
           name="Logan Gonzalez"
           bio="Logan Gonzalez is a talented basketball player with a natural ability to score from anywhere on the court. His dedication and skills have earned him numerous accolades."
           bioLink="https://logan-gonzalez.netlify.app"
         />
+        {/* Add more men's basketball cards as needed */}
+      </SimpleGrid>
+      <Text fontSize="3xl" color="#FFFDD0" fontFamily="'Teko', sans-serif" mt={6}>
+        Women's Basketball
+      </Text>
+      <SimpleGrid columns={[1, 2, 3]} spacing={10} justifyItems="center" alignItems="center">
+        <Card
+          frontImg="basketball-placeholder.png"
+          name="Ella Ramirez"
+          bio="Ella Ramirez is a talented basketball player who is a natural leader. Calm, cool, and collected under pressure makes her as good a floor general as one can find."
+          bioLink="https://ella-ramirez.netlify.app"
+        />
+      </SimpleGrid>
+      <Text fontSize="3xl" color="#FFFDD0" fontFamily="'Bebas Neue', sans-serif" mt={6}>
+        Baseball
+      </Text>
+      <SimpleGrid columns={[1, 2, 3]} spacing={10} justifyItems="center" alignItems="center">
+        {/* Add baseball cards here */}
+      </SimpleGrid>
+      <Text fontSize="3xl" color="#FFFDD0" fontFamily="'Pacifico', cursive" mt={6}>
+        Softball
+      </Text>
+      <SimpleGrid columns={[1, 2, 3]} spacing={10} justifyItems="center" alignItems="center">
+        {/* Add softball cards here */}
+      </SimpleGrid>
+      <Text fontSize="3xl" color="#FFFDD0" fontFamily="'Passion One', sans-serif" mt={6}>
+        Volleyball
+      </Text>
+      <SimpleGrid columns={[1, 2, 3]} spacing={10} justifyItems="center" alignItems="center">
+        {/* Add volleyball cards here */}
+      </SimpleGrid>
+      <Text fontSize="3xl" color="#FFFDD0" fontFamily="'Gentium Plus', serif" mt={6}>
+        Golf
+      </Text>
+      <SimpleGrid columns={[1, 2, 3]} spacing={10} justifyItems="center" alignItems="center">
         <Card
           frontImg="norah-1.png"
           name="Norah Castillo"
-          bio="Norah Castillo is an accomplished golfer with a precise swing and a calm demeanor. She has a knack for reading the greens and staying composed under pressure, making her a formidable competitor."
+          bio="Norah Castillo is a talented basketball player who is a natural leader. Calm, cool, and collected under pressure makes her as good a floor general as one can find."
           bioLink="https://norahcastillo.netlify.app"
         />
+      </SimpleGrid>
+      <Text fontSize="3xl" color="#FFFDD0" fontFamily="'Exo 2', sans-serif" mt={6}>
+        Table Tennis
+      </Text>
+      <SimpleGrid columns={[1, 2, 3]} spacing={10} justifyItems="center" alignItems="center">
+        {/* Add table tennis cards here */}
+      </SimpleGrid>
+      <Text fontSize="3xl" color="#FFFDD0" fontFamily="'Righteous', sans-serif" mt={6}>
+        Hockey
+      </Text>
+      <SimpleGrid columns={[1, 2, 3]} spacing={10} justifyItems="center" alignItems="center">
+        <Card
+          frontImg="charlie-1.png"
+          name="Charlie Harvey"
+          bio="Charlie Harvey is a talented basketball player who is a natural leader. Calm, cool, and collected under pressure makes her as good a floor general as one can find."
+          bioLink="https://charlie-harvey.netlify.app"
+        />
+      </SimpleGrid>
+      <Text fontSize="3xl" color="#FFFDD0" fontFamily="'Snowburst One', system-ui" mt={6}>
+        Skiing
+      </Text>
+      <SimpleGrid columns={[1, 2, 3]} spacing={10} justifyItems="center" alignItems="center">
+        {/* Add skiing cards here */}
+      </SimpleGrid>
+      <Text fontSize="3xl" color="#FFFDD0" fontFamily="'Racing Sans One', sans-serif" mt={6}>
+        Track
+      </Text>
+      <SimpleGrid columns={[1, 2, 3]} spacing={10} justifyItems="center" alignItems="center">
+        {/* Add track cards here */}
+      </SimpleGrid>
+      <Text fontSize="3xl" color="#FFFDD0" fontFamily="'Montserrat', sans-serif" mt={6}>
+        Biking
+      </Text>
+      <SimpleGrid columns={[1, 2, 3]} spacing={10} justifyItems="center" alignItems="center">
+        {/* Add biking cards here */}
+      </SimpleGrid>
+      <Text fontSize="3xl" color="#FFFDD0" fontFamily="'PT Sans', sans-serif" mt={6}>
+        Weightlifting
+      </Text>
+      <SimpleGrid columns={[1, 2, 3]} spacing={10} justifyItems="center" alignItems="center">
+        {/* Add weightlifting cards here */}
+      </SimpleGrid>
+      <Text fontSize="3xl" color="#FFFDD0" fontFamily="'Lobster', sans-serif" mt={6}>
+        Swimming
+      </Text>
+      <SimpleGrid columns={[1, 2, 3]} spacing={10} justifyItems="center" alignItems="center">
+        {/* Add swimming cards here */}
+      </SimpleGrid>
+      <Text fontSize="3xl" color="#FFFDD0" fontFamily="'Play', sans-serif" mt={6}>
+        Soccer
+      </Text>
+      <SimpleGrid columns={[1, 2, 3]} spacing={10} justifyItems="center" alignItems="center">
+        {/* Add soccer cards here */}
+      </SimpleGrid>
+      <Text fontSize="3xl" color="#FFFDD0" fontFamily="'Dancing Script', cursive" mt={6}>
+        Dance
+      </Text>
+      <SimpleGrid columns={[1, 2, 3]} spacing={10} justifyItems="center" alignItems="center">
         <Card
           frontImg="ava-1.png"
           name="Ava Castillo"
-          bio="Ava Castillo is a passionate dancer known for her graceful movements and expressive performances. She has trained in various dance styles and continues to impress audiences with her technique and creativity."
+          bio="Ella Ramirez is a talented basketball player who is a natural leader. Calm, cool, and collected under pressure makes her as good a floor general as one can find."
           bioLink="https://avacastillo.netlify.app"
         />
-        <Card
-          frontImg="football-player.png"
-          name="John Smith"
-          bio="John Smith is a rising star in football, known for his speed and agility on the field. He has averaged 200 yards rushing per game this season, leading his team to multiple victories."
-          bioLink="https://example.com/john-smith"
-        />
       </SimpleGrid>
+      {/* Repeat similar sections for other sports */}
     </VStack>
   );
 }
