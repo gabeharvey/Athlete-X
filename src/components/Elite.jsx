@@ -148,7 +148,12 @@ function Elite() {
         Softball
       </Text>
       <SimpleGrid columns={[1, 2, 3]} spacing={10} justifyItems="center" alignItems="center">
-        {/* Add softball cards here */}
+        <Card
+          frontImg="corinne-1.PNG"
+          name="Corinne Bouvier"
+          bio="Corinne Bouvier is an oustanding softball player who is a field general and fearless on the mound."
+          bioLink="https://corinne-bouvier.netlify.app"
+        />
       </SimpleGrid>
       <Text fontSize="3xl" color="#FFFDD0" fontFamily="'Passion One', sans-serif" mt={6}>
         Volleyball
