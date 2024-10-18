@@ -163,7 +163,7 @@ function Elite() {
         <Card
           frontImg="norah-1.png"
           name="Norah Castillo"
-          bio="Norah Castillo is a talented basketball player who is a natural leader. Calm, cool, and collected under pressure makes her as good a floor general as one can find."
+          bio="Norah Castillo is an exceptional golfer known for her strategic mindset and poise on the course."
           bioLink="https://norahcastillo.netlify.app"
         />
       </SimpleGrid>
@@ -180,7 +180,7 @@ function Elite() {
         <Card
           frontImg="charlie-1.png"
           name="Charlie Harvey"
-          bio="Charlie Harvey is a talented basketball player who is a natural leader. Calm, cool, and collected under pressure makes her as good a floor general as one can find."
+          bio="Charlie Harvey is a skilled hockey player known for his sharp instincts and leadership on the ice. With exceptional vision and agility, he maneuvers through opponents effortlessly, making him a natural playmaker."
           bioLink="https://charlie-harvey.netlify.app"
         />
       </SimpleGrid>
@@ -227,7 +227,7 @@ function Elite() {
         <Card
           frontImg="ava-1.png"
           name="Ava Castillo"
-          bio="Ella Ramirez is a talented basketball player who is a natural leader. Calm, cool, and collected under pressure makes her as good a floor general as one can find."
+          bio="Ava Castillo is a passionate dancer known for her captivating performances and natural charisma. With grace and precision, she brings each routine to life, showcasing her ability to express emotion through movement."
           bioLink="https://avacastillo.netlify.app"
         />
       </SimpleGrid>
