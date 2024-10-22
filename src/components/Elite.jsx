@@ -233,7 +233,7 @@ function Elite() {
           frontImg="ava-1.png"
           name="Ava Castillo"
           bio="Ava Castillo is a passionate dancer known for her captivating performances and natural charisma. With grace and precision, she brings each routine to life, showcasing her ability to express emotion through movement."
-          bioLink="https://avacastillo.netlify.app"
+          bioLink="https://ava-castillo.netlify.app"
         />
       </SimpleGrid>
       {/* Repeat similar sections for other sports */}
