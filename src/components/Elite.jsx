@@ -169,7 +169,7 @@ function Elite() {
           frontImg="norah-1.png"
           name="Norah Castillo"
           bio="Norah Castillo is an exceptional golfer known for her strategic mindset and poise on the course."
-          bioLink="https://norahcastillo.netlify.app"
+          bioLink="https://norah-castillo.netlify.app"
         />
       </SimpleGrid>
       <Text fontSize="3xl" color="#FFFDD0" fontFamily="'Exo 2', sans-serif" mt={6}>
