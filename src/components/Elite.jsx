@@ -154,12 +154,23 @@ function Elite() {
           bio="Corinne Bouvier is an oustanding softball player who is a field general and fearless on the mound."
           bioLink="https://corinne-bouvier.netlify.app"
         />
+        <Card
+          frontImg="softball-placeholder.png"
+          name="Damia McGarity"
+          bio="Damia McGarity is an oustanding softball player who has unmatched power at the plate and athleticism."
+          bioLink="https://damia-mcgarity.netlify.app"
+        />
       </SimpleGrid>
       <Text fontSize="3xl" color="#FFFDD0" fontFamily="'Passion One', sans-serif" mt={6}>
         Volleyball
       </Text>
       <SimpleGrid columns={[1, 2, 3]} spacing={10} justifyItems="center" alignItems="center">
-        {/* Add volleyball cards here */}
+      <Card
+          frontImg="volleyball-placeholder.png"
+          name="Danica McGarity"
+          bio="Danica McGarity is an outstanding volleyball player who commands attention and respect on the court."
+          bioLink="https://danica-mcgarity.netlify.app"
+        />
       </SimpleGrid>
       <Text fontSize="3xl" color="#FFFDD0" fontFamily="'Gentium Plus', serif" mt={6}>
         Golf
