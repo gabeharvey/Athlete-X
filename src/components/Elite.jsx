@@ -132,7 +132,7 @@ function Elite() {
       </Text>
       <SimpleGrid columns={[1, 2, 3]} spacing={10} justifyItems="center" alignItems="center">
         <Card
-          frontImg="ella-1.png"
+          frontImg="ella-6.png"
           name="Ella Ramirez"
           bio="Ella Ramirez is a talented basketball player who is a natural leader. Calm, cool, and collected under pressure makes her as good a floor general as one can find."
           bioLink="https://ella-ramirez.netlify.app"
