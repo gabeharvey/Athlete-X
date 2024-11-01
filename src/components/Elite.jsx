@@ -103,6 +103,9 @@ function Elite() {
       <Text fontSize="3xl" color="#FFFDD0" fontFamily="'Changa', cursive">
         Meet Elite Athletes
       </Text>
+      <Text fontSize="xl" color="#FFFDD0" fontFamily="'Changa', cursive">
+        Click on Card for more Info
+      </Text>
       <Text fontSize="2xl" color="#FFFDD0" fontFamily="'Bungee', sans-serif" mt={6}>
         Football
       </Text>
