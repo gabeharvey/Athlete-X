@@ -11,7 +11,7 @@ function Celeb() {
       bg="transparent"
       h="100vh"
       textAlign="center"
-      mb="200px"
+      mb="400px"
     >
       <Text fontSize="3xl" color="#FFFDD0" fontFamily="'Changa', cursive" textAlign="center">
         Endorsed by and partnered with professional stars!

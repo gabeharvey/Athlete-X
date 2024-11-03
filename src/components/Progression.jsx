@@ -12,7 +12,7 @@ function Progression() {
       bgPosition="center" 
       bgRepeat="no-repeat" 
       h="100vh" 
-      mb="300px"
+      mb="400px"
     >
       <Text fontSize="3xl" color="#FFFDD0" fontFamily="'Changa', cursive" textAlign="center">
         Athlete Progression
