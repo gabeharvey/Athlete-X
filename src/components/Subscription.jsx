@@ -12,7 +12,7 @@ function Subscription() {
       bgPosition="center" 
       bgRepeat="no-repeat" 
       h="100vh" 
-      mb="200px"
+      mb="300px"
     >
       <Text fontSize="3xl" color="#FFFDD0" fontFamily="'Changa', cursive" textAlign="center">
         Become Part of the Athlete X Elite Family
