@@ -36,7 +36,7 @@ function Subscription() {
           Monthly Subscription $49.00
         </Text>
         <Text mt={4} color="#FFFDD0" fontFamily="'Changa', cursive">
-          Stay on top with monthly updates and exclusive networking sessions. Allow Athlete X Elite to highlight your progression and provide college recruiters with the information they specifically seek. Get positioned next to top athletes in your sport with feedback from former professional athletes.
+          Allow Athlete X Elite to highlight your progression and provide college recruiters with the information they specifically seek. Get positioned next to top athletes in your sport with feedback from former professional athletes.
         </Text>
         <Button
           mt={6}
