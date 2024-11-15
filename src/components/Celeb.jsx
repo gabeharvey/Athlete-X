@@ -4,14 +4,16 @@ import { Box, Text, Image, VStack, Stack } from '@chakra-ui/react';
 function Celeb() {
   return (
     <VStack
-      spacing={8}
-      align="center"
-      justify="center"
-      p={10}
-      bg="transparent"
-      h="100vh"
-      textAlign="center"
-      mb="400px"
+    spacing={8}
+    align="center"
+    justify="center"
+    p={10}
+    bgImage="url('/basketball.png')" 
+    bgSize="contain" 
+    bgPosition="center" 
+    bgRepeat="no-repeat"
+    minHeight="100vh" 
+    py={{ base: '80px', md: '120px', lg: '150px' }} 
     >
       <Text fontSize="3xl" color="#FFFDD0" fontFamily="'Changa', cursive" textAlign="center">
         <span className="tilt-prism">Athlete X Elite</span> is endorsed by and partnered with professional stars!

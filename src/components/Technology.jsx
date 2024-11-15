@@ -13,8 +13,8 @@ function Technology() {
     bgSize="contain" 
     bgPosition="center" 
     bgRepeat="no-repeat"
-    minHeight="100vh" // Ensures the component takes full height but no overflow
-    py={{ base: '80px', md: '120px', lg: '150px' }} // Adds vertical padding for spacing on different screen sizes
+    minHeight="100vh" 
+    py={{ base: '80px', md: '120px', lg: '150px' }} 
     >
       <Text fontSize="3xl" color="#FFFDD0" fontFamily="'Changa', cursive" textAlign="center">
         Technology Behind Elite Athlete Applications

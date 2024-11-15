@@ -3,16 +3,16 @@ import { Box, Text, Button, VStack } from '@chakra-ui/react';
 function Packages() {
   return (
     <VStack
-      spacing={8}
-      align="center"
-      justify="center"
-      p={10}
-      bgImage="url('/basketball.png')" 
-      bgSize="contain" 
-      bgPosition="center" 
-      bgRepeat="no-repeat" 
-      h="100vh" 
-      mb="200px"
+    spacing={8}
+    align="center"
+    justify="center"
+    p={10}
+    bgImage="url('/basketball.png')" 
+    bgSize="contain" 
+    bgPosition="center" 
+    bgRepeat="no-repeat"
+    minHeight="100vh" 
+    py={{ base: '80px', md: '120px', lg: '150px' }} 
     >
       <Text fontSize="3xl" color="#FFFDD0" fontFamily="'Changa', cursive" textAlign="center">Standalone Packages</Text>
       <Box
