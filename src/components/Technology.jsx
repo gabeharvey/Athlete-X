@@ -5,16 +5,16 @@ import { SiChakraui } from 'react-icons/si'; // Chakra UI icon
 function Technology() {
   return (
     <VStack
-      spacing={8}
-      align="center"
-      justify="center"
-      p={10}
-      bgImage="url('/basketball.png')" 
-      bgSize="contain" 
-      bgPosition="center" 
-      bgRepeat="no-repeat" 
-      h="100vh" 
-      mb="400px"
+    spacing={8}
+    align="center"
+    justify="center"
+    p={10}
+    bgImage="url('/basketball.png')" 
+    bgSize="contain" 
+    bgPosition="center" 
+    bgRepeat="no-repeat"
+    minHeight="100vh" // Ensures the component takes full height but no overflow
+    py={{ base: '80px', md: '120px', lg: '150px' }} // Adds vertical padding for spacing on different screen sizes
     >
       <Text fontSize="3xl" color="#FFFDD0" fontFamily="'Changa', cursive" textAlign="center">
         Technology Behind Elite Athlete Applications
