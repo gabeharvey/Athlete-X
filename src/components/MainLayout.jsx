@@ -7,6 +7,7 @@ import Showcase from './Showcase';
 import Subscription from './Subscription';
 import Progression from './Progression';
 import Packages from './Packages';
+import Technology from './Technology';
 
 const MainLayout = () => {
   return (
@@ -17,6 +18,7 @@ const MainLayout = () => {
       <Celeb />
       <Showcase />
       <Progression />
+      <Technology />
       <Subscription />
       <Packages />
     </>
