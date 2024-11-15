@@ -53,7 +53,7 @@ function Technology() {
             <SiChakraui color="#319795" size="80px" /> {/* Chakra UI Icon */}
           </Stack>
           <Text color="#FFFDD0" fontFamily="'Changa', cursive">
-            Every application is built using modern technologies like React and Chakra UI to ensure flexibility and top-notch user experience.
+            Every application is built using modern technologies like React and Chakra UI to ensure flexibility and top-notch user experience. We believe every athlete is unique and every application should be unique as well.
           </Text>
         </Box>
 
