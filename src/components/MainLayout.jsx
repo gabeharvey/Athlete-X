@@ -16,8 +16,8 @@ const MainLayout = () => {
       <About />
       <Celeb />
       <Showcase />
-      <Subscription />
       <Progression />
+      <Subscription />
       <Packages />
     </>
   );
