@@ -31,7 +31,7 @@ function Packages() {
         }}
       >
         <Text fontSize="2xl" fontWeight="bold" color="#FFFDD0" fontFamily="'Changa', cursive">
-          Spotlight Package $399.00
+          Spotlight Package $299.00
         </Text>
         <Text mt={4} color="#FFFDD0" fontFamily="'Changa', cursive">
           This package includes player bio, 2 recruit films, 2 digital sports cards, and recruiter contact form.
@@ -73,7 +73,7 @@ function Packages() {
         }}
       >
         <Text fontSize="2xl" fontWeight="bold" color="#FFFDD0" fontFamily="'Changa', cursive">
-          Feature Package $599.00
+          Feature Package $399.00
         </Text>
         <Text mt={4} color="#FFFDD0" fontFamily="'Changa', cursive">
           This package includes player bio, 4 recruit films, 4 digital sports cards, and recruiter contact form. In addition, package includes extra collab session.
@@ -115,7 +115,7 @@ function Packages() {
         }}
       >
         <Text fontSize="2xl" fontWeight="bold" color="#FFFDD0" fontFamily="'Changa', cursive">
-          Showcase Package $799.00
+          Showcase Package $499.00
         </Text>
         <Text mt={4} color="#FFFDD0" fontFamily="'Changa', cursive">
           This package includes player bio, 8 recruit films, 8 digital sports cards, and recruiter contact form. In addition, package includes 2 extra collab sessions and player stat tracker.

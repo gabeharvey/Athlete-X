@@ -33,7 +33,7 @@ function Subscription() {
         }}
       >
         <Text fontSize="2xl" fontWeight="bold" color="#FFFDD0" fontFamily="'Changa', cursive">
-          Monthly Subscription $49.00
+          Monthly Subscription $29.00
         </Text>
         <Text mt={4} color="#FFFDD0" fontFamily="'Changa', cursive">
           Athlete X Elite will highlight athlete progression and provide college recruiters with the information they specifically seek. Get positioned next to top athletes in your sport with feedback from former professional athletes.
@@ -75,7 +75,7 @@ function Subscription() {
         }}
       >
         <Text fontSize="2xl" fontWeight="bold" color="#FFFDD0" fontFamily="'Changa', cursive">
-          Yearly Subscription $499.00
+          Yearly Subscription $299.00
         </Text>
         <Text mt={4} color="#FFFDD0" fontFamily="'Changa', cursive">
           Save big with our yearly plan! Includes all monthly features plus exclusive yearly events and priority access to top recruiting resources.
