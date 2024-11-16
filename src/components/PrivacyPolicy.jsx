@@ -34,7 +34,7 @@ function PrivacyPolicy() {
         </Text>
 
         <Text mt={6} color="#FFFDD0" fontFamily="'Changa', cursive" textAlign="left" fontSize={["sm", "md"]}>
-          At Athlete X, your privacy is of utmost importance. This Privacy Policy explains how we collect, use, and safeguard your personal information.
+          At Athlete X Elite, your privacy is of utmost importance. This Privacy Policy explains how we collect, use, and safeguard your personal information.
         </Text>
 
         <Text mt={4} color="#FFFDD0" fontFamily="'Changa', cursive" textAlign="left" fontSize={["sm", "md"]}>
