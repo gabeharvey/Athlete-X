@@ -140,6 +140,12 @@ function Elite() {
           bio="Ella Ramirez is a talented basketball player who is a natural leader. Calm, cool, and collected under pressure makes her as good a floor general as one can find."
           bioLink="https://ella-ramirez.netlify.app"
         />
+        <Card
+          frontImg="ai-basketball-placeholder.png"
+          name="Audri Garcia"
+          bio="Audri Garcia is a dominant force on the court, known for her strength and agility. A powerful rebounder and a tenacious defender, she excels in the paint, controlling both ends of the floor."
+          bioLink="https://audri-garcia.netlify.app"
+        />
       </SimpleGrid>
       <Text fontSize="3xl" color="#FFFDD0" fontFamily="'Bebas Neue', sans-serif" mt={6}>
         Baseball
