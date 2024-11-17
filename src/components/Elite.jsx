@@ -3,7 +3,7 @@
 import { Box, Text, Button, VStack, SimpleGrid } from '@chakra-ui/react';
 import { useState } from 'react';
 
-function Card({ frontImg, name, bio, bioLink }) {
+function Card({ frontImg, name, bio, bioLink, isUnderConstruction }) {
   const [flipped, setFlipped] = useState(false);
 
   const flipSound = new Audio('/card-flip.mp3');
@@ -14,7 +14,7 @@ function Card({ frontImg, name, bio, bioLink }) {
   };
 
   return (
-    <Box w="300px" h="400px" perspective="1000px" mb="10px">
+    <Box w="300px" h="400px" position="relative" perspective="1000px" mb="10px">
       <Box
         w="100%"
         h="100%"
@@ -24,6 +24,7 @@ function Card({ frontImg, name, bio, bioLink }) {
         transform={flipped ? 'rotateY(180deg)' : 'rotateY(0deg)'}
         onClick={handleFlip}
       >
+        {/* Front of the card */}
         <Box
           position="absolute"
           style={{ backfaceVisibility: 'hidden' }}
@@ -42,8 +43,28 @@ function Card({ frontImg, name, bio, bioLink }) {
             display="flex"
             alignItems="center"
             justifyContent="center"
-          ></Box>
+          >
+            {isUnderConstruction && (
+              <Box
+                position="absolute"
+                bottom="0"
+                left="0"
+                right="0"
+                bg="yellow.400"
+                color="black"
+                textAlign="center"
+                py={2}
+                fontWeight="bold"
+                fontSize="lg"
+                zIndex="1"
+                borderRadius="0 0 12px 12px"
+              >
+                🚧 Under Construction 🚧
+              </Box>
+            )}
+          </Box>
         </Box>
+        {/* Back of the card */}
         <Box
           bgColor="#2C2C2C"
           bgImage="linear-gradient(-45deg, black 25%, transparent 25%, transparent 50%, black 50%, black 75%, transparent 75%, transparent)"
@@ -115,6 +136,7 @@ function Elite() {
           name="Michael Terry III"
           bio="Michael Terry III is a rising star in football, an extremely rare blend of speed, agility, size and strength on the field. He has led Alamo Heights HS to many victories this season."
           bioLink="https://michael-terry-III.netlify.app"
+          isUnderConstruction={true}
         />
         {/* Add more football cards as needed */}
       </SimpleGrid>
@@ -127,6 +149,7 @@ function Elite() {
           name="Logan Gonzalez"
           bio="Logan Gonzalez is a talented basketball player with a natural ability to score from anywhere on the court. His dedication and skills have earned him numerous accolades."
           bioLink="https://logan-gonzalez.netlify.app"
+          isUnderConstruction={false}
         />
         {/* Add more men's basketball cards as needed */}
       </SimpleGrid>
@@ -145,6 +168,7 @@ function Elite() {
           name="Audri Garcia"
           bio="Audri Garcia is a dominant force on the court, known for her strength and agility. A powerful rebounder and a tenacious defender, she excels in the paint, controlling both ends of the floor."
           bioLink="https://audri-garcia.netlify.app"
+          isUnderConstruction={true}
         />
       </SimpleGrid>
       <Text fontSize="3xl" color="#FFFDD0" fontFamily="'Bebas Neue', sans-serif" mt={6}>
@@ -168,6 +192,7 @@ function Elite() {
           name="Damia McGarity"
           bio="Damia McGarity is an oustanding softball player who has unmatched power at the plate and athleticism."
           bioLink="https://damia-mcgarity.netlify.app"
+          isUnderConstruction={true}
         />
       </SimpleGrid>
       <Text fontSize="3xl" color="#FFFDD0" fontFamily="'Passion One', sans-serif" mt={6}>
@@ -179,6 +204,7 @@ function Elite() {
           name="Danica McGarity"
           bio="Danica McGarity is an outstanding volleyball player who commands attention and respect on the court."
           bioLink="https://danica-mcgarity.netlify.app"
+          isUnderConstruction={true}
         />
       </SimpleGrid>
       <Text fontSize="3xl" color="#FFFDD0" fontFamily="'Gentium Plus', serif" mt={6}>
