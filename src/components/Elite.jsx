@@ -45,7 +45,7 @@ function Card({ frontImg, name, bio, bioLink, isUnderConstruction }) {
             justifyContent="center"
           >
             {/* Conditionally render the Under Construction banner only on the front */}
-            {isUnderConstruction && (
+            {isUnderConstruction && !flipped && (
               <Box
                 position="absolute"
                 bottom="0"
@@ -58,7 +58,7 @@ function Card({ frontImg, name, bio, bioLink, isUnderConstruction }) {
                 fontSize="lg"
                 zIndex="1"
                 borderRadius="0 0 12px 12px"
-                style={{ backfaceVisibility: 'hidden' }} 
+                style={{ backfaceVisibility: 'hidden' }} // Prevents it from showing on the back
               >
                 🚧 Under Construction 🚧
               </Box>
@@ -114,6 +114,26 @@ function Card({ frontImg, name, bio, bioLink, isUnderConstruction }) {
           >
             Player Bio
           </Button>
+
+          {/* Under Construction Banner visible on the back, but not reversed */}
+          {isUnderConstruction && flipped && (
+            <Box
+              position="absolute"
+              bottom="0"
+              w="100%"
+              bg="yellow.400"
+              color="black"
+              textAlign="center"
+              py={2}
+              fontWeight="bold"
+              fontSize="lg"
+              zIndex="1"
+              borderRadius="0 0 12px 12px"
+              style={{ transform: 'rotateY(0deg)' }} // Ensure the banner stays upright
+            >
+              🚧 Under Construction 🚧
+            </Box>
+          )}
         </Box>
       </Box>
     </Box>
