@@ -24,7 +24,7 @@ function Card({ frontImg, name, bio, bioLink, isUnderConstruction }) {
         transform={flipped ? 'rotateY(180deg)' : 'rotateY(0deg)'}
         onClick={handleFlip}
       >
-        {/* Front of the card */}
+        {/* Front side */}
         <Box
           position="absolute"
           style={{ backfaceVisibility: 'hidden' }}
@@ -44,12 +44,12 @@ function Card({ frontImg, name, bio, bioLink, isUnderConstruction }) {
             alignItems="center"
             justifyContent="center"
           >
+            {/* Conditionally render the Under Construction banner */}
             {isUnderConstruction && (
               <Box
                 position="absolute"
                 bottom="0"
-                left="0"
-                right="0"
+                w="100%"
                 bg="yellow.400"
                 color="black"
                 textAlign="center"
@@ -58,13 +58,15 @@ function Card({ frontImg, name, bio, bioLink, isUnderConstruction }) {
                 fontSize="lg"
                 zIndex="1"
                 borderRadius="0 0 12px 12px"
+                style={{ backfaceVisibility: 'hidden' }} // Prevents it from showing on the back
               >
                 🚧 Under Construction 🚧
               </Box>
             )}
           </Box>
         </Box>
-        {/* Back of the card */}
+
+        {/* Back side */}
         <Box
           bgColor="#2C2C2C"
           bgImage="linear-gradient(-45deg, black 25%, transparent 25%, transparent 50%, black 50%, black 75%, transparent 75%, transparent)"
