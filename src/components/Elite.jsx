@@ -136,7 +136,7 @@ function Elite() {
           name="Michael Terry III"
           bio="Michael Terry III is a rising star in football, an extremely rare blend of speed, agility, size and strength on the field. He has led Alamo Heights HS to many victories this season."
           bioLink="https://michael-terry-III.netlify.app"
-          isUnderConstruction={true}
+          isUnderConstruction={false}
         />
         {/* Add more football cards as needed */}
       </SimpleGrid>
