@@ -44,7 +44,7 @@ function Card({ frontImg, name, bio, bioLink, isUnderConstruction }) {
             alignItems="center"
             justifyContent="center"
           >
-            {/* Conditionally render the Under Construction banner */}
+            {/* Conditionally render the Under Construction banner only on the front */}
             {isUnderConstruction && (
               <Box
                 position="absolute"
@@ -58,7 +58,7 @@ function Card({ frontImg, name, bio, bioLink, isUnderConstruction }) {
                 fontSize="lg"
                 zIndex="1"
                 borderRadius="0 0 12px 12px"
-                style={{ backfaceVisibility: 'hidden' }} // Prevents it from showing on the back
+                style={{ backfaceVisibility: 'hidden' }} 
               >
                 🚧 Under Construction 🚧
               </Box>
