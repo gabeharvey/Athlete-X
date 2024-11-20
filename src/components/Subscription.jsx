@@ -23,7 +23,7 @@ function Subscription() {
         bgSize="5px 5px"
         borderRadius="12px"
         p={8}
-        w="350px"
+        w="300px"
         textAlign="center"
         boxShadow="0 0 15px rgba(0, 0, 0, 0.7)"
         transition="transform 0.3s, box-shadow 0.3s"
