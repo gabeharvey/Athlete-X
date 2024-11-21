@@ -56,7 +56,7 @@ function Celeb() {
             "Athlete X Elite truly understands how to highlight an athlete's journey. Their attention to specific skills and ability to showcase them gives college recruiters the information they need very quickly. This holds true for sports across the spectrum for young aspiring athletes."
           </Text>
           <Text fontSize="lg" fontWeight="bold" color="#FFFDD0" fontFamily="'Changa', cursive">
-            - Wane McGarity, holder of several school records football University of Texas, Dallas Cowboys star!
+            - Wane McGarity, holder of several school records for University of Texas football and Dallas Cowboys star!
           </Text>
         </Box>
       </Stack>
