@@ -68,7 +68,7 @@ const Navbar = () => {
       bgColor="#2C2C2C"
       bgImage="linear-gradient(-45deg, black 25%, transparent 25%, transparent 50%, black 50%, black 75%, transparent 75%, transparent)"
       bgSize="5px 5px;"
-      py="2.5rem"
+      py="6.5rem"
       px="2rem"
       position="relative"
       boxShadow="lg"
