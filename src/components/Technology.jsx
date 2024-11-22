@@ -78,7 +78,7 @@ function Technology() {
           justifyContent="center"
         >
           <Text fontSize="2xl" fontWeight="bold" color="#FFFDD0" fontFamily="'Changa', cursive" mb={4}>
-            <span className="tilt-prism">Athlete X Elite</span> is a World Where Code Meets Sports
+            <span className="tilt-prism">Athlete X Elite | 1/1</span> is a World Where Code Meets Sports
           </Text>
           <Text color="#FFFDD0" fontFamily="'Changa', cursive">
             React and Chakra UI allow us to build fully responsive applications, perfect for elite athletes. Recruiters can view them on any device size. Each app is coded from scratch to ensure top performance and scalability.
@@ -109,7 +109,7 @@ function Technology() {
             Our Collaborative Approach
           </Text>
           <Text color="#FFFDD0" fontFamily="'Changa', cursive" mb={4}>
-            Athlete X Elite engineers work closely to design custom applications for each athlete, ensuring a unique experience tailored to achieve their goals.
+            Athlete X Elite | 1/1 engineers work closely to design custom applications for each athlete, ensuring a unique experience tailored to achieve their goals.
           </Text>
           <Image 
             src="/comp-engineers.png" 

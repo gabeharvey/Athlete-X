@@ -44,7 +44,7 @@ function About() {
         </div>
       )}
       <p className="centered-text">
-        Do not see your sport listed? <span className="tilt-prism">Athlete X Elite</span> has you covered! 
+        Do not see your sport listed? <span className="tilt-prism">Athlete X Elite | 1/1</span> has you covered! 
         <Link to="/contact" style={{ marginLeft: '5px', color: '#FFA500', textDecoration: 'underline' }}>
           Contact
         </Link> 

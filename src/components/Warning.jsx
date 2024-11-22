@@ -6,7 +6,7 @@ const Warning = () => {
   const additionalText = (
     <>
       Why the #<span style={{ fontFamily: "'Tilt Prism', cursive", fontWeight: "bold" }}>1</span> and cream colors?{" "}
-      <span style={{ fontFamily: "'Tilt Prism', cursive", fontWeight: "bold" }}>Athlete X Elite</span> treats every
+      <span style={{ fontFamily: "'Tilt Prism', cursive", fontWeight: "bold" }}>Athlete X Elite | 1/1</span> treats every
       athlete as the #1 draft pick. We believe every athlete is unique, cream of the crop, and 1 of
       1. In this spirit, every app we design is coded from scratch and unique.
     </>
@@ -43,7 +43,7 @@ const Warning = () => {
       <p
         style={{
           color: '#FFFDD0', // Cream color
-          fontSize: '1.3rem',
+          fontSize: '1.1rem',
           fontFamily: "'Changa', cursive",
           marginTop: '20px',
         }}

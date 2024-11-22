@@ -15,7 +15,7 @@ function Subscription() {
     py={{ base: '80px', md: '120px', lg: '150px' }} 
     >
       <Text fontSize="3xl" color="#FFFDD0" fontFamily="'Changa', cursive" textAlign="center">
-        Become Part of the Athlete X Elite Family
+        Become Part of the <span className="tilt-prism-2">Athlete X Elite | 1/1</span> Family
       </Text>
       <Box
         bgColor="#2C2C2C"
@@ -36,7 +36,7 @@ function Subscription() {
           Monthly Subscription $29.00
         </Text>
         <Text mt={4} color="#FFFDD0" fontFamily="'Changa', cursive">
-          Athlete X Elite will highlight athlete progression and provide college recruiters with the information they specifically seek. Get positioned next to top athletes in your sport with feedback from former professional athletes.
+          Athlete X Elite | 1/1 will highlight athlete progression and provide college recruiters with the information they specifically seek. Get positioned next to top athletes in your sport with feedback from former professional athletes.
         </Text>
         <Button
           mt={6}
