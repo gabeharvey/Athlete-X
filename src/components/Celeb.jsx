@@ -53,7 +53,7 @@ function Celeb() {
           }}
         >
           <Text fontSize="xl" fontStyle="italic" color="#FFFDD0" mb={4} fontFamily="'Changa', cursive">
-            "Athlete X Elite | 1/1 truly understands how to highlight an athlete's journey. Their attention to specific skills and ability to showcase them gives college recruiters the information they need very quickly. This holds true for sports across the spectrum for young aspiring athletes."
+            "Athlete X Elite 1/1 truly understands how to highlight an athlete's journey. Their attention to specific skills and ability to showcase them gives college recruiters the information they need very quickly. This holds true for sports across the spectrum for young aspiring athletes."
           </Text>
           <Text fontSize="lg" fontWeight="bold" color="#FFFDD0" fontFamily="'Changa', cursive">
             - Wane McGarity, holder of several school records for University of Texas football and Dallas Cowboys star!
