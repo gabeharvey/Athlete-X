@@ -7,7 +7,7 @@ const Warning = () => {
     <>
       Why the #<span style={{ fontFamily: "'Tilt Prism', cursive", fontWeight: "bold" }}>1</span> and cream colors?{" "}
       <span style={{ fontFamily: "'Tilt Prism', cursive", fontWeight: "bold" }}>Athlete X Elite</span> treats every
-      athlete as the #<span style={{ fontFamily: "'Tilt Prism', cursive", fontWeight: "bold" }}>1</span> draft pick. We believe every athlete is unique, cream of the crop, and <span style={{ fontFamily: "'Tilt Prism', cursive", fontWeight: "bold" }}>1 of 1</span>. In this spirit, every app we design is coded from scratch and unique.
+      athlete as the #<span style={{ fontFamily: "'Tilt Prism', cursive", fontWeight: "bold" }}>1</span> draft pick. We believe every athlete is unique, cream of the crop, and <span style={{ fontFamily: "'Tilt Prism', cursive", fontWeight: "bold" }}>1 / 1</span>. In this spirit, every app we design is coded from scratch and unique.
     </>
   );
 
