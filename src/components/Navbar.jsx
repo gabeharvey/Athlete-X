@@ -79,12 +79,12 @@ const Navbar = () => {
         <Heading
           as={RouterLink}
           to="/"
-          fontSize="xl"
+          fontSize="2xl"
           fontFamily="'Tilt Prism', sans-serif"
           color="#FFFDD0"
           letterSpacing="wider"
         >
-          Athlete X Elite | 1 / 1
+          Athlete X Elite
         </Heading>
         <Spacer />
         <IconButton 

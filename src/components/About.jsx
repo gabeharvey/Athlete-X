@@ -29,7 +29,7 @@ function About() {
         </button>
       )}
       <h1 className={isVisible ? 'zoom-in' : ''}>
-        Welcome to <span className="tilt-prism-2">Athlete X Elite | 1/1</span>! You have done all the hard work and sacrifice. Allow us to present your Elite Athlete to the world!
+        Welcome to <span className="tilt-prism-2">Athlete X Elite</span>! You have done all the hard work and sacrifice. Allow us to present your Elite Athlete to the world!
       </h1>
       <div className="fancy-divider"></div>
       <h2 className={isH2Visible ? 'zoom-in' : ''}>
@@ -44,7 +44,7 @@ function About() {
         </div>
       )}
       <p className="centered-text">
-        Do not see your sport listed? <span className="tilt-prism">Athlete X Elite | 1/1</span> has you covered! 
+        Do not see your sport listed? <span className="tilt-prism">Athlete X Elite</span> has you covered! 
         <Link to="/contact" style={{ marginLeft: '5px', color: '#FFA500', textDecoration: 'underline' }}>
           Contact
         </Link> 
