@@ -51,7 +51,7 @@ function About() {
           Contact
         </Link>
         {' '}
-        us for more information!
+        us for more information.
       </p>
       <audio ref={audioRef} src="/outdoor-basketball-bounce.mp3" preload="auto" />
 
