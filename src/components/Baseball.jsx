@@ -62,7 +62,7 @@ function Baseball() {
           Highlight reels are key to showcasing your skills and attracting recruiters. They allow you to display your hitting, pitching, and fielding abilities in an engaging way.
         </Text>
         <Text mt={4} color="#FFFDD0" fontFamily="'Changa', cursive">
-          A professionally edited highlight reel can effectively present your best moments and give coaches a glimpse of your playing style and potential.
+          A professionally edited highlight reel can effectively present your best moments and give recruiters a glimpse of your playing style and potential.
         </Text>
         <Button
           mt={6}
