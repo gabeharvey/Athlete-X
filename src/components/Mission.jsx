@@ -44,9 +44,9 @@ function Mission() {
       const timer = setTimeout(() => {
         setStatementStep((prev) => prev + 1);
       }, 3000);
-      return () => clearTimeout(timer); // Cleanup timeout
+      return () => clearTimeout(timer); 
     }
-  }, [missionStatementVisible, statementStep]); // Trigger when missionStatementVisible or statementStep changes
+  }, [missionStatementVisible, statementStep]); 
 
   return (
     <div
@@ -108,8 +108,8 @@ function Mission() {
             <p className="zoom-from-far">
               Want to help us make a difference?{' '}
               <Link to="/contact" style={{ color: '#FFA500', textDecoration: 'underline' }}>
-                Contact Us
-              </Link>
+                Contact
+              </Link> Us
             </p>
           )}
         </div>
