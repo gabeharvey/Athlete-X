@@ -188,8 +188,15 @@ function Elite() {
         <Card
           frontImg="ai-basketball-placeholder.png"
           name="Audri Garcia"
-          bio="Audri Garcia is a dominant force on the court, known for her strength and agility. A powerful rebounder and a tenacious defender, she excels in the paint, controlling both ends of the floor."
+          bio="Audri Garcia is known for toughness, speed, and agility. A player that can do it all very well. Extremely versatile and able to play multiple positions with ease."
           bioLink="https://audri-garcia.netlify.app"
+          isUnderConstruction={true}
+        />
+        <Card
+          frontImg="ai-basketball-placeholder.png"
+          name="Valentina Cantu"
+          bio="Valentina Cantu is a dominant force on the court, known for her strength and agility. A powerful rebounder and a tenacious defender, she excels in the paint, controlling both ends of the floor."
+          bioLink="https://valentina-cantu.netlify.app"
           isUnderConstruction={true}
         />
       </SimpleGrid>
