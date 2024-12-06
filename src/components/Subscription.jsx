@@ -15,7 +15,7 @@ function Subscription() {
     py={{ base: '80px', md: '120px', lg: '150px' }} 
     >
       <Text fontSize="3xl" color="#FFFDD0" fontFamily="'Changa', cursive" textAlign="center">
-        Become Part of the <span className="tilt-prism-2">Athlete X Elite</span> Family
+        Become Part of the <span className="tilt-prism-3">Athlete X Elite</span> Family
       </Text>
       <Box
         bgColor="#2C2C2C"
