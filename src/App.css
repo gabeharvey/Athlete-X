@@ -145,7 +145,7 @@
 
 .about-container {
   font-family: 'Changa', cursive;
-  font-size: 24px;
+  font-size: 1.1em;
   background-image: url('/basketball.png'); 
   background-size: contain; 
   background-position: center; 
@@ -193,7 +193,7 @@
 .centered-text {
   text-align: center;
   margin-top: 20px; 
-  font-size: .8em; 
+  font-size: 1.1em; 
   color: #FFFDD0; 
 }
 
@@ -256,7 +256,7 @@
 
 .tilt-prism-2 {
   font-family: 'Tilt Prism', sans-serif;
-  font-size: 24px;
+  font-size: 18px;
   font-weight: bold;
 }
 
