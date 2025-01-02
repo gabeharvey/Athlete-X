@@ -59,6 +59,36 @@ function Celeb() {
             - Wane McGarity, holder of several school records for University of Texas football and Dallas Cowboys star!
           </Text>
         </Box>
+        {/* <Image
+          src="/Madison-Nunn.png"
+          alt="Celebrity Endorsement"
+          borderRadius="10px"
+          boxSize="250px"
+          objectFit="cover"
+          boxShadow="0 0 15px rgba(0, 0, 0, 0.7)"
+        />
+        <Box
+          bgColor="#2C2C2C"
+          bgImage="linear-gradient(-45deg, black 25%, transparent 25%, transparent 50%, black 50%, black 75%, transparent 75%, transparent)"
+          bgSize="5px 5px"
+          borderRadius="12px"
+          p={6}
+          w={{ base: "100%", md: "500px" }}
+          textAlign="center"
+          boxShadow="0 0 15px rgba(0, 0, 0, 0.7)"
+          transition="transform 0.3s, box-shadow 0.3s"
+          _hover={{
+            transform: 'translateY(-10px)',
+            boxShadow: '0 8px 16px rgba(0, 0, 0, 0.9)',
+          }}
+        >
+          <Text fontSize="xl" fontStyle="italic" color="#FFFDD0" mb={4} fontFamily="'Changa', cursive">
+            "Quote from Madison Nunn"
+          </Text>
+          <Text fontSize="lg" fontWeight="bold" color="#FFFDD0" fontFamily="'Changa', cursive">
+            -Madison Nunn, 2023 NFCA Softball First Team All-American!
+          </Text>
+        </Box> */}
       </Stack>
     </VStack>
   );
