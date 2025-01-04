@@ -83,7 +83,7 @@ function Celeb() {
           }}
         >
           <Text fontSize="xl" fontStyle="italic" color="#FFFDD0" mb={4} fontFamily="'Changa', cursive">
-            "There are many aspects to consider in the recruiting process. Athlete X Elite displays athletic skills but also highlights aspects that make an aspiring college athlete stand out. Athlete X Elite will treat you like family."
+            "There are many aspects to consider in the recruiting process. Athlete X Elite displays athletic skills but also highlights other aspects that make an athlete stand out. Athlete X Elite will treat you like family."
           </Text>
           <Text fontSize="lg" fontWeight="bold" color="#FFFDD0" fontFamily="'Changa', cursive">
             - Madison Nunn, 2023 NFCA Softball First Team All-American!
