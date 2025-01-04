@@ -59,7 +59,7 @@ function Celeb() {
             - Wane McGarity, holder of several school records for University of Texas football and Dallas Cowboys star!
           </Text>
         </Box>
-        {/* <Image
+        <Image
           src="/Madison-Nunn.png"
           alt="Celebrity Endorsement"
           borderRadius="10px"
@@ -83,12 +83,12 @@ function Celeb() {
           }}
         >
           <Text fontSize="xl" fontStyle="italic" color="#FFFDD0" mb={4} fontFamily="'Changa', cursive">
-            "Quote from Madison Nunn"
+            "There are many aspects to consider in the recruiting process. Athlete X Elite displays athletic skills but also highlights aspects that make an aspiring college athlete truly stand out. Athlete X Elite will treat you like family."
           </Text>
           <Text fontSize="lg" fontWeight="bold" color="#FFFDD0" fontFamily="'Changa', cursive">
-            -Madison Nunn, 2023 NFCA Softball First Team All-American!
+            - Madison Nunn, 2023 NFCA Softball First Team All-American!
           </Text>
-        </Box> */}
+        </Box>
       </Stack>
     </VStack>
   );
