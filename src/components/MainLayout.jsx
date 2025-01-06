@@ -8,7 +8,7 @@ import Subscription from './Subscription';
 import Progression from './Progression';
 import Packages from './Packages';
 import Technology from './Technology';
-import Mission from './Mission';
+// import Mission from './Mission';
 
 const MainLayout = () => {
   return (
@@ -17,7 +17,7 @@ const MainLayout = () => {
       <Warning />
       <About />
       <Celeb />
-      <Mission />
+      {/* <Mission /> */}
       <Showcase />
       <Progression />
       <Technology />
