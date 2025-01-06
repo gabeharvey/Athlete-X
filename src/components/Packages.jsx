@@ -143,7 +143,7 @@ function Packages() {
             Premium Package $499.00
           </Text>
           <Text mt={4} color="#FFFDD0" fontFamily="'Changa', cursive">
-            This package includes player bio, 6 recruit films, 6 digital sports cards, recruiter contact form, and a personalized app walkthrough session.
+            This package includes player bio, 8 recruit films, 8 digital sports cards, and recruiter contact form. In addition, package includes 2 extra collab sessions, player stat tracker, and player progression tracker.
           </Text>
           <Button
             mt={6}
