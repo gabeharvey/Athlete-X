@@ -34,14 +34,14 @@ function About() {
         Welcome to <span className="tilt-prism-2">Athlete X Elite</span>! You have done all the hard work and sacrifice. Allow us to present your Elite Athlete to the world!
       </h1>
       <div className="fancy-divider"></div>
-      <h2 className={isH2Visible ? 'zoom-in' : ''}>
+      <h1 className={isH2Visible ? 'zoom-in' : ''}>
         Mobile friendly, yet responsive app showcasing athletic abilities.
-      </h2>
+      </h1>
       <div className="fancy-divider"></div>
       {isH3Visible && (
-        <h3 className="zoom-in">
+        <h1 className="zoom-in">
           It is crucial to stand out! The talent and skills are there. People want to see it quickly and First Class!
-        </h3>
+        </h1>
       )}
       <p className="centered-text">
         Do not see your sport listed? <span className="tilt-prism">Athlete X Elite</span> has you covered! 
