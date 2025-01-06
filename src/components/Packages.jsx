@@ -140,7 +140,7 @@ function Packages() {
           }}
         >
           <Text fontSize="2xl" fontWeight="bold" color="#FFFDD0" fontFamily="'Changa', cursive">
-            Premium Package $499.00
+            Showcase Package $499.00
           </Text>
           <Text mt={4} color="#FFFDD0" fontFamily="'Changa', cursive">
             This package includes player bio, 8 recruit films, 8 digital sports cards, and recruiter contact form. In addition, package includes 2 extra collab sessions, player stat tracker, and player progression tracker.
