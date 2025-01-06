@@ -3,13 +3,13 @@ import { useState, useEffect } from 'react';
 const Warning = () => {
   const [isVisible, setIsVisible] = useState(false);
   const message = "Due to overwhelming demand, all new requests will have a two-week waiting period.";
-  const additionalText = (
-    <>
-      Why the #<span style={{ fontFamily: "'Tilt Prism', cursive", fontWeight: "bold" }}>1</span> and cream colors?{" "}
-      <span style={{ fontFamily: "'Tilt Prism', cursive", fontWeight: "bold" }}>Athlete X Elite</span> treats every
-      athlete as the #<span style={{ fontFamily: "'Tilt Prism', cursive", fontWeight: "bold" }}>1</span> draft pick. We believe every athlete is unique, cream of the crop, and <span style={{ fontFamily: "'Tilt Prism', cursive", fontWeight: "bold" }}>1 / 1</span>. In this spirit, every app we design is coded from scratch and unique.
-    </>
-  );
+  // const additionalText = (
+  //   <>
+  //     Why the #<span style={{ fontFamily: "'Tilt Prism', cursive", fontWeight: "bold" }}>1</span> and cream colors?{" "}
+  //     <span style={{ fontFamily: "'Tilt Prism', cursive", fontWeight: "bold" }}>Athlete X Elite</span> treats every
+  //     athlete as the #<span style={{ fontFamily: "'Tilt Prism', cursive", fontWeight: "bold" }}>1</span> draft pick. We believe every athlete is unique, cream of the crop, and <span style={{ fontFamily: "'Tilt Prism', cursive", fontWeight: "bold" }}>1 / 1</span>. In this spirit, every app we design is coded from scratch and unique.
+  //   </>
+  // );
 
   useEffect(() => {
     const timer = setTimeout(() => {
@@ -39,7 +39,7 @@ const Warning = () => {
       </h1>
 
       {/* Always-Visible Additional Text */}
-      <p
+      {/* <p
         style={{
           color: '#FFFDD0', // Cream color
           fontSize: '1.1rem',
@@ -48,7 +48,7 @@ const Warning = () => {
         }}
       >
         {additionalText}
-      </p>
+      </p> */}
 
       <style>{`
         @keyframes fadeIn {
