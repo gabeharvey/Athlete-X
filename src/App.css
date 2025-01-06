@@ -469,3 +469,19 @@
   opacity: 0;
   transition: opacity 1.5s ease;
 }
+
+/* Zoom-in animation */
+@keyframes zoom-in {
+  from {
+    opacity: 0;
+    transform: scale(0.8);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+.zoom-in {
+  animation: zoom-in 1s ease-out forwards;
+}
