@@ -79,7 +79,7 @@ const Navbar = () => {
         <Heading
           as={RouterLink}
           to="/"
-          fontSize="6xl"
+          fontSize="4xl"
           fontFamily="'Tilt Prism', sans-serif"
           color="#FFFDD0"
           letterSpacing="wider"
