@@ -34,7 +34,7 @@ function Basketball() {
           Importance of a Basketball Profile
         </Text>
         <Text mt={4} color="#FFFDD0" fontFamily="'Changa', cursive">
-          A well-structured basketball profile is essential for catching the eye of college coaches and recruiters. It provides a detailed overview of skills, achievements, and gameplay statistics.
+          A well-structured basketball profile is essential for catching the eye of college coaches and recruiters. It provides a detailed overview of your skills, achievements, and gameplay statistics.
         </Text>
         <Text mt={4} color="#FFFDD0" fontFamily="'Changa', cursive">
           With a professionally crafted profile, you can showcase your commitment, skills, and potential, significantly enhancing your chances of securing a scholarship or a spot on a team.
