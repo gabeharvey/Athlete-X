@@ -2,6 +2,7 @@ import { ChakraProvider, extendTheme } from '@chakra-ui/react';
 import { Outlet } from 'react-router-dom'; 
 import Navbar from '../src/components/Navbar.jsx';
 import Footer from '../src/components/Footer.jsx';
+import './App.css';
 
 const theme = extendTheme({
   styles: {
