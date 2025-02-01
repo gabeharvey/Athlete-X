@@ -23,7 +23,11 @@ const Contact = () => {
       .then((response) => {
         console.log('SUCCESS!', response.status, response.text);
         toast({
-          title: 'Message sent successfully.',
+          title: (
+            <span className="tilt-prism-2">
+              Athlete X Elite Will Reach Out Soon!
+            </span>
+          ),
           status: 'success',
           duration: 5000,
           isClosable: true,
