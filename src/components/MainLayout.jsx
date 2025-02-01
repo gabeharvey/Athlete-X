@@ -8,6 +8,7 @@ import Subscription from './Subscription';
 import Progression from './Progression';
 import Packages from './Packages';
 import Technology from './Technology';
+import Bubble from './Bubble';
 // import Mission from './Mission';
 
 const MainLayout = () => {
@@ -15,6 +16,7 @@ const MainLayout = () => {
     <>
       <Home />
       <Warning />
+      <Bubble />
       <About />
       <Celeb />
       {/* <Mission /> */}

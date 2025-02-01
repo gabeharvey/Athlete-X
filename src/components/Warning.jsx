@@ -20,7 +20,7 @@ const Warning = () => {
   }, []);
 
   return (
-    <div className="warning-container" style={{ margin: '20px', textAlign: 'center' }}>
+    <div className="warning-container" style={{ margin: '35px', textAlign: 'center' }}>
       {/* Warning Message */}
       <h1
         className="fade-in"
