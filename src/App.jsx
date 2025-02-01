@@ -7,9 +7,10 @@ import './App.css';
 const theme = extendTheme({
   styles: {
     global: {
-      body: {
+      'html, body': {
         bg: '#000000', 
-        color: '#FFFDD0', 
+        color: '#FFFDD0',
+        minH: '100vh',
       },
     },
   },
