@@ -21,8 +21,8 @@ const MainLayout = () => {
       <Celeb />
       {/* <Mission /> */}
       <Showcase />
-      <Progression />
       <Technology />
+      <Progression />
       <Subscription />
       <Packages />
     </>
