@@ -497,3 +497,7 @@
     margin-left: 20px; /* Adds space to keep text visible */
   }
 }
+
+html, body {
+  background-color: #000000 !important;
+}
