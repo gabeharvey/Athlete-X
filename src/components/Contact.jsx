@@ -69,7 +69,8 @@ const Contact = () => {
       transform: 'translateY(-5px)',
       boxShadow: '0 8px 16px rgba(0, 0, 0, 0.9)',
     }}
-    mb={4} // Spacing between the text box and contact box
+    mt={10}
+    mb={4} 
   >
     <Text fontSize="xl" fontWeight="bold" color="#FFFDD0" fontFamily="'Changa', cursive">
       Got a star athlete and want to join The <span className="tilt-prism-2">Athlete X Elite</span> Family? Questions? Comments? Send Us a Message! We will reach out like you just sent your best friend a text message!
