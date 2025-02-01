@@ -54,6 +54,27 @@ const Contact = () => {
       h="100vh"
       mb="200px"
     >
+        <Box
+    bgColor="#2C2C2C"
+    bgImage="linear-gradient(-45deg, black 25%, transparent 25%, transparent 50%, black 50%, black 75%, transparent 75%, transparent)"
+    bgSize="5px 5px;"
+    borderRadius="12px"
+    p={[4, 6]}
+    w={["90%", "90%", "400px"]}
+    maxW="400px"
+    textAlign="center"
+    boxShadow="0 0 15px rgba(0, 0, 0, 0.7)"
+    transition="transform 0.3s, box-shadow 0.3s"
+    _hover={{
+      transform: 'translateY(-5px)',
+      boxShadow: '0 8px 16px rgba(0, 0, 0, 0.9)',
+    }}
+    mb={4} // Spacing between the text box and contact box
+  >
+    <Text fontSize="xl" fontWeight="bold" color="#FFFDD0" fontFamily="'Changa', cursive">
+      Got a star athlete and want to join The <span className="tilt-prism-2">Athlete X Elite</span> Family? Questions? Comments? Send Us a Message! We will reach out like you just sent your best friend a text message!
+    </Text>
+  </Box>
       <Box
         bgColor="#2C2C2C"
         bgImage="linear-gradient(-45deg, black 25%, transparent 25%, transparent 50%, black 50%, black 75%, transparent 75%, transparent)"
