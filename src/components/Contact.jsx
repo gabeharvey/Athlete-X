@@ -24,7 +24,7 @@ const Contact = () => {
         console.log('SUCCESS!', response.status, response.text);
         toast({
           title: (
-            <span className="tilt-prism-2">
+            <span className="tilt-prism-4">
               Athlete X Elite Will Reach Out Soon!
             </span>
           ),
