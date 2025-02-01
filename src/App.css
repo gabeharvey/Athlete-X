@@ -19,7 +19,7 @@
 
 :root {
   font-family: 'Changa', cursive;
-  background-color: #2C2C2C;
+  background-color: #2C2C2C  !important;
 }
 
 .zoom-in {
