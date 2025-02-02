@@ -391,15 +391,44 @@
 .social-icons {
   display: flex;
   justify-content: center;
-  gap: 20px;
+  flex-wrap: wrap; 
+  gap: 15px; 
+  padding: 10px;
+  max-width: 100%;
 }
 
 .social-icons a {
-  transition: transform 0.3s ease;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  transition: transform 0.3s ease-in-out;
 }
 
 .social-icons a:hover {
-  transform: scale(1.2);
+  transform: scale(1.1);
+}
+
+@media (max-width: 600px) {
+  .social-icons {
+    gap: 10px;
+  }
+
+  .social-icons a svg {
+    width: 25px; 
+    height: 25px;
+  }
+}
+
+@media (max-width: 400px) {
+  .social-icons {
+    gap: 8px;
+  }
+
+  .social-icons a svg {
+    width: 22px;
+    height: 22px;
+  }
 }
 
 .packages-container {
