@@ -156,6 +156,7 @@
   text-align: center;
   background-color: black; 
   min-height: 100vh;
+  margin-bottom: 50px;
 }
 
 .about-container h1 {
