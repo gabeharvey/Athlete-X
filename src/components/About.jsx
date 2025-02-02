@@ -51,6 +51,10 @@ function About() {
         {' '}
         us for more information.
       </p>
+      <p className="centered-text">We are proud supporters of Youth Sports.</p>
+      <div className="centered-images">
+        <img src="/ll-logo.png" alt="Little League Logo 1" className="small-image" />
+      </div>
       <audio ref={audioRef} src="/outdoor-basketball-bounce.mp3" preload="auto" />
 
       {/* Social Media Section */}

@@ -272,6 +272,21 @@
   font-weight: bold;
 }
 
+.centered-images {
+  margin-top: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px; 
+  flex-wrap: wrap;
+}
+
+.small-image {
+  width: 100px; 
+  height: 100px; 
+  object-fit: contain; 
+}
+
 .packages-container {
   background-image: url('/basketball.png'); 
   background-size: contain; 
