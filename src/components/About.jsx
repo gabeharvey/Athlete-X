@@ -59,7 +59,7 @@ function About() {
 
       {/* Social Media Section */}
       <div className="social-media-section">
-        <p className="social-media-text">Follow <span className="tilt-prism">Athlete X Elite</span> on Social Media</p>
+        <p className="social-media-text">Get Social with <span className="tilt-prism">Athlete X Elite</span></p>
         <div className="social-icons">
           <a
             href="https://www.facebook.com/people/Athlete-X-Elite/61568944931104/?mibextid=LQQJ4d&rdid=TEUVJDRMaCDf59oU&share_url=https%3A%2F%2Fwww.facebook.com%2Fshare%2F17sXncDzHY%2F%3Fmibextid%3DLQQJ4d"
