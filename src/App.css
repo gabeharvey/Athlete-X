@@ -288,6 +288,32 @@
   object-fit: contain; 
 }
 
+.social-media-section {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.social-media-text {
+  font-family: 'Changa', cursive; 
+  font-size: 1.1em;
+  color: #FFFDD0; 
+  margin-bottom: 10px;
+}
+
+.social-icons {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.social-icons a {
+  transition: transform 0.3s ease;
+}
+
+.social-icons a:hover {
+  transform: scale(1.2);
+}
+
 .packages-container {
   background-image: url('/basketball.png'); 
   background-size: contain; 
@@ -371,32 +397,6 @@
   font-family: 'Tilt Prism', sans-serif;
   font-size: 16px;
   font-weight: bold;
-}
-
-.social-media-section {
-  text-align: center;
-  margin-top: 20px;
-}
-
-.social-media-text {
-  font-family: 'Changa', cursive; 
-  font-size: 1.2rem;
-  color: #FFFDD0; 
-  margin-bottom: 10px;
-}
-
-.social-icons {
-  display: flex;
-  justify-content: center;
-  gap: 20px;
-}
-
-.social-icons a {
-  transition: transform 0.3s ease;
-}
-
-.social-icons a:hover {
-  transform: scale(1.2);
 }
 
 .mission-container {
