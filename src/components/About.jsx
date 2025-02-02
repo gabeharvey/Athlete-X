@@ -1,7 +1,7 @@
 import { useState, useRef } from 'react';
 import '../App.css';
 import { Link } from 'react-router-dom';
-import { FaFacebook, FaInstagram, FaTiktok } from 'react-icons/fa';
+import { FaFacebook, FaInstagram, FaYoutube, FaTiktok } from 'react-icons/fa';
 import { PiThreadsLogoBold } from 'react-icons/pi';
 
 function About() {
@@ -84,6 +84,14 @@ function About() {
             aria-label="Threads"
           >
             <PiThreadsLogoBold size={30} style={{ margin: '0 10px', color: '#FFFDD0' }} />
+          </a>
+          <a
+            href="https://www.youtube.com/@AthleteXElite" 
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="YouTube"
+          >
+            <FaYoutube size={30} style={{ margin: '0 10px', color: '#FF0000' }} />
           </a>
           <a
             href="https://www.tiktok.com/@athlete_x_elite"
