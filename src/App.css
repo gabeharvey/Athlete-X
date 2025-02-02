@@ -198,6 +198,94 @@
   color: #FFFDD0; 
 }
 
+.mission-container {
+  text-align: center;
+  padding: 20px;
+  background-color: black;
+}
+
+.start-mission-button {
+  padding: 10px 20px;
+  font-size: 18px;
+  font-weight: bold;
+  color: #fff;
+  background-color: #FFA500;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: transform 0.3s;
+}
+
+.start-mission-button:hover {
+  transform: scale(1.1);
+}
+
+.mission-text {
+  font-size: 24px;
+  color: #FFFDD0;
+  animation: zoomIn 1.5s ease-out;
+}
+
+.mission-statement-container {
+  margin-top: 30px;
+}
+
+.mission-statement-container h1 {
+  font-size: 28px;
+  margin-bottom: 10px;
+}
+
+.mission-statement-container h2 {
+  font-size: 24px;
+  color: #FFFDD0;
+  margin-bottom: 10px;
+}
+
+.mission-statement-container p {
+  font-size: 18px;
+  color: #FFFDD0;
+}
+
+@keyframes zoomIn {
+  from {
+    transform: scale(0.5);
+    opacity: 0;
+  }
+  to {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+
+.mission-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 100vh;
+  background-color: black;
+  padding: 20px;
+}
+
+.mission-text,
+.mission-statement-container h1,
+.mission-statement-container h2,
+.mission-statement-container p {
+  animation: zoomFromFar 1.5s ease-out;
+}
+
+@keyframes zoomFromFar {
+  from {
+    transform: scale(0.5);
+    opacity: 0;
+  }
+  to {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+
 .fancy-divider {
   margin: 20px 0; 
   height: 4px; 
@@ -397,94 +485,6 @@
   font-family: 'Tilt Prism', sans-serif;
   font-size: 16px;
   font-weight: bold;
-}
-
-.mission-container {
-  text-align: center;
-  padding: 20px;
-  background-color: black;
-}
-
-.start-mission-button {
-  padding: 10px 20px;
-  font-size: 18px;
-  font-weight: bold;
-  color: #fff;
-  background-color: #FFA500;
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
-  transition: transform 0.3s;
-}
-
-.start-mission-button:hover {
-  transform: scale(1.1);
-}
-
-.mission-text {
-  font-size: 24px;
-  color: #FFFDD0;
-  animation: zoomIn 1.5s ease-out;
-}
-
-.mission-statement-container {
-  margin-top: 30px;
-}
-
-.mission-statement-container h1 {
-  font-size: 28px;
-  margin-bottom: 10px;
-}
-
-.mission-statement-container h2 {
-  font-size: 24px;
-  color: #FFFDD0;
-  margin-bottom: 10px;
-}
-
-.mission-statement-container p {
-  font-size: 18px;
-  color: #FFFDD0;
-}
-
-@keyframes zoomIn {
-  from {
-    transform: scale(0.5);
-    opacity: 0;
-  }
-  to {
-    transform: scale(1);
-    opacity: 1;
-  }
-}
-
-.mission-container {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  height: 100vh;
-  background-color: black;
-  padding: 20px;
-}
-
-.mission-text,
-.mission-statement-container h1,
-.mission-statement-container h2,
-.mission-statement-container p {
-  animation: zoomFromFar 1.5s ease-out;
-}
-
-@keyframes zoomFromFar {
-  from {
-    transform: scale(0.5);
-    opacity: 0;
-  }
-  to {
-    transform: scale(1);
-    opacity: 1;
-  }
 }
 
 .fade-out {
