@@ -55,7 +55,7 @@ function About() {
       <div className="centered-images">
         <img src="/ll-logo.png" alt="Little League Logo 1" className="small-image" />
       </div>
-      <audio ref={audioRef} src="/outdoor-basketball-bounce.mp3" preload="auto" />
+      <audio ref={audioRef} src="/hiphop-sound.mp3" preload="auto" />
 
       {/* Social Media Section */}
       <div className="social-media-section">
