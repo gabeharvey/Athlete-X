@@ -78,7 +78,7 @@ const Contact = () => {
           mb="20px" 
         >
           <Text fontSize="lg" fontWeight="bold" color="#FFFDD0" fontFamily="'Changa', cursive">
-            Got a star athlete and want to join The <span className="tilt-prism-2">Athlete X Elite</span> Family? Questions? Comments? Send Us a Message! We will reach out like you just sent your best friend a text message!
+            Questions? Comments? Send Us a Message! We will reach out like you just sent your best friend a text message!
           </Text>
         </Box>
         <Box
@@ -203,10 +203,10 @@ const Contact = () => {
             boxShadow: '0 8px 16px rgba(0, 0, 0, 0.9)',
           }}
           mt={16}
-          minHeight="175px"
+          minHeight="150px"
         >
           <Text fontSize="lg" fontWeight="bold" color="#FFFDD0" fontFamily="'Changa', cursive">
-            Ready to join the <span className="tilt-prism-2">Athlete X Elite</span> family? Press the button below and join the elite!
+            Ready to join the <span className="tilt-prism-2">Athlete X Elite</span> family?
           </Text>
 
           <Button
@@ -231,7 +231,7 @@ const Contact = () => {
               transform: 'scale(1.05)',
             }}
           >
-            Athlete X Elite Application
+            Athlete Application
           </Button>
         </Box>
     </VStack>
