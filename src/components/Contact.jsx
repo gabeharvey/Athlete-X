@@ -1,4 +1,3 @@
-/* eslint-disable react/no-unescaped-entities */
 import { useState } from 'react';
 import { Box, Text, Button, Input, Textarea, FormControl, FormLabel, VStack, useToast } from '@chakra-ui/react';
 import emailjs from '@emailjs/browser';
@@ -207,7 +206,7 @@ const Contact = () => {
           mb={4} 
         >
           <Text fontSize="lg" fontWeight="bold" color="#FFFDD0" fontFamily="'Changa', cursive">
-            Ready to build an <span className="tilt-prism-2">Athlete X Elite</span>app? Press the button and join the elite!
+            Ready to build an <span className="tilt-prism-2">Athlete X Elite</span> app? Press the button and join the elite!
           </Text>
         </Box>   
       <Button
