@@ -232,7 +232,7 @@ const Contact = () => {
             transform: 'scale(1.05)',
           }}
         >
-          Elite Athlete Application
+          Athlete X Elite Application
         </Button>
     </VStack>
   );
