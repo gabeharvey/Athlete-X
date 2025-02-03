@@ -74,7 +74,7 @@ const Contact = () => {
             transform: 'translateY(-5px)',
             boxShadow: '0 8px 16px rgba(0, 0, 0, 0.9)',
           }}
-          mt="200px"
+          mt="50px"
           mb="20px" 
         >
           <Text fontSize="lg" fontWeight="bold" color="#FFFDD0" fontFamily="'Changa', cursive">
