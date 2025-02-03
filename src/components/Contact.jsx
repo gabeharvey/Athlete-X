@@ -206,7 +206,7 @@ const Contact = () => {
           mb={4} 
         >
           <Text fontSize="lg" fontWeight="bold" color="#FFFDD0" fontFamily="'Changa', cursive">
-            Ready to build an <span className="tilt-prism-2">Athlete X Elite</span> app? Press the button and join the elite!
+            Ready to join the <span className="tilt-prism-2">Athlete X Elite</span> family? Press the button and join the elite!
           </Text>
         </Box>   
       <Button
