@@ -1,6 +1,6 @@
 import { Box, Text, Image, VStack, Stack } from '@chakra-ui/react';
-import { FaReact } from 'react-icons/fa'; // React icon
-import { SiChakraui } from 'react-icons/si'; // Chakra UI icon
+import { FaReact } from 'react-icons/fa'; 
+import { SiChakraui } from 'react-icons/si'; 
 
 function Technology() {
   return (

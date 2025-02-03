@@ -129,7 +129,7 @@ function Card({ frontImg, name, bio, bioLink, isUnderConstruction }) {
               fontSize="lg"
               zIndex="1"
               borderRadius="0 0 12px 12px"
-              style={{ transform: 'rotateY(0deg)' }} // Ensure the banner stays upright
+              style={{ transform: 'rotateY(0deg)' }} 
             >
               🚧 Under Construction 🚧
             </Box>

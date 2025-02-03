@@ -544,8 +544,8 @@
   .bubble {
     transform: rotate(-90deg);
     transform-origin: left center;
-    margin-top: 80px; /* Adjust as needed */
-    margin-left: 20px; /* Adds space to keep text visible */
+    margin-top: 80px; 
+    margin-left: 20px; 
   }
 }
 
