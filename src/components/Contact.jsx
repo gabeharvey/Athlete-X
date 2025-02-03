@@ -58,6 +58,7 @@ const Contact = () => {
       bgRepeat="no-repeat"
       h="100vh"
       mb="200px"
+      mt="200px"
     >
         <Box
           bgColor="#2C2C2C"
@@ -81,22 +82,22 @@ const Contact = () => {
             Got a star athlete and want to join The <span className="tilt-prism-2">Athlete X Elite</span> Family? Questions? Comments? Send Us a Message! We will reach out like you just sent your best friend a text message!
           </Text>
         </Box>
-      <Box
-        bgColor="#2C2C2C"
-        bgImage="linear-gradient(-45deg, black 25%, transparent 25%, transparent 50%, black 50%, black 75%, transparent 75%, transparent)"
-        bgSize="5px 5px;"
-        borderRadius="12px"
-        p={[5, 8]}
-        w={["90%", "90%", "400px"]}
-        maxW="400px"
-        textAlign="center"
-        boxShadow="0 0 15px rgba(0, 0, 0, 0.7)"
-        transition="transform 0.3s, box-shadow 0.3s"
-        _hover={{
-          transform: 'translateY(-10px)',
-          boxShadow: '0 8px 16px rgba(0, 0, 0, 0.9)',
-        }}
-      >
+        <Box
+          bgColor="#2C2C2C"
+          bgImage="linear-gradient(-45deg, black 25%, transparent 25%, transparent 50%, black 50%, black 75%, transparent 75%, transparent)"
+          bgSize="5px 5px;"
+          borderRadius="12px"
+          p={[5, 8]}
+          w={["90%", "90%", "400px"]}
+          maxW="400px"
+          textAlign="center"
+          boxShadow="0 0 15px rgba(0, 0, 0, 0.7)"
+          transition="transform 0.3s, box-shadow 0.3s"
+          _hover={{
+            transform: 'translateY(-10px)',
+            boxShadow: '0 8px 16px rgba(0, 0, 0, 0.9)',
+          }}
+        >
         <Text fontSize={["xl", "2xl"]} fontWeight="bold" color="#FFFDD0" fontFamily="'Changa', cursive">
           Contact Us
         </Text>
@@ -214,6 +215,7 @@ const Contact = () => {
           href="https://docs.google.com/forms/d/e/1FAIpQLScKoV3Xswp6wi8nP55awafwXVOvxtoG1rFOCtiYEbxxM5TQBA/viewform?usp=dialog"
           target="_blank"
           mt={4}
+          mb="200px"
           fontFamily="'Tilt Prism', sans-serif"
           fontWeight="bold"
           bg="transparent"
