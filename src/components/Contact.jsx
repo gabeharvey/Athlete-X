@@ -190,7 +190,7 @@ const Contact = () => {
       <Box
           bgColor="#2C2C2C"
           bgImage="linear-gradient(-45deg, black 25%, transparent 25%, transparent 50%, black 50%, black 75%, transparent 75%, transparent)"
-          bgSize="5px 5px;"
+          bgSize="5px 5px"
           borderRadius="12px"
           p={[4, 6]}
           w={["90%", "90%", "400px"]}
@@ -203,36 +203,37 @@ const Contact = () => {
             boxShadow: '0 8px 16px rgba(0, 0, 0, 0.9)',
           }}
           mt={16}
-          mb={4} 
+          minHeight="175px"
         >
           <Text fontSize="lg" fontWeight="bold" color="#FFFDD0" fontFamily="'Changa', cursive">
-            Ready to join the <span className="tilt-prism-2">Athlete X Elite</span> family? Press the button and join the elite!
+            Ready to join the <span className="tilt-prism-2">Athlete X Elite</span> family? Press the button below and join the elite!
           </Text>
-        </Box>   
-      <Button
-          as="a"
-          href="https://docs.google.com/forms/d/e/1FAIpQLScKoV3Xswp6wi8nP55awafwXVOvxtoG1rFOCtiYEbxxM5TQBA/viewform?usp=dialog"
-          target="_blank"
-          mt={4}
-          mb="200px"
-          fontFamily="'Tilt Prism', sans-serif"
-          fontWeight="bold"
-          bg="transparent"
-          color="#FFFDD0"
-          border="2px solid #FFA500"
-          borderRadius="8px"
-          padding="10px 20px"
-          fontSize="18px"
-          cursor="pointer"
-          transition="all 0.3s ease"
-          _hover={{
-            bg: '#FFA500',
-            color: 'white',
-            transform: 'scale(1.05)',
-          }}
-        >
-          Athlete X Elite Application
-        </Button>
+
+          <Button
+            as="a"
+            href="https://docs.google.com/forms/d/e/1FAIpQLScKoV3Xswp6wi8nP55awafwXVOvxtoG1rFOCtiYEbxxM5TQBA/viewform?usp=dialog"
+            target="_blank"
+            mt={4}
+            mb="200px"
+            fontFamily="'Tilt Prism', sans-serif"
+            fontWeight="bold"
+            bg="transparent"
+            color="#FFFDD0"
+            border="2px solid #FFA500"
+            borderRadius="8px"
+            padding="10px 20px"
+            fontSize="18px"
+            cursor="pointer"
+            transition="all 0.3s ease"
+            _hover={{
+              bg: '#FFA500',
+              color: 'white',
+              transform: 'scale(1.05)',
+            }}
+          >
+            Athlete X Elite Application
+          </Button>
+        </Box>
     </VStack>
   );
 };
