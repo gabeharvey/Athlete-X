@@ -529,11 +529,11 @@
 .bubble {
   display: inline-block;
   background-color:#FFA500;
-  font-size: 18px;
+  font-size: 16px;
   color:#131212;
   font-family: 'Changa';
   border-radius: 10px;
-  padding: 10px;
+  padding: 8px;
 }
 
 .bubble:hover {
