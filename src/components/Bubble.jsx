@@ -6,7 +6,7 @@ function Bubble() {
 return (
     <Sticky className="sticky">
     <Link to="/contact" className="bubble">
-        Rizz Up! Join <span className="tilt-prism-2">Athlete X Elite</span> Family
+        Join <span className="tilt-prism-2">Athlete X Elite</span> Family
     </Link> 
     </Sticky>
 );
