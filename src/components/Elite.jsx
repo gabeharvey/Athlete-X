@@ -242,6 +242,12 @@ function Elite() {
           bioLink="https://danica-mcgarity.netlify.app"
           isUnderConstruction={true}
         />
+              <Card
+          frontImg="ally-1.jpeg"
+          name="Ally Rosa"
+          bio="Ally Rosa is a natural leader on the court. Fearless, Confident, and Commanding describe her game. Teammates respond to her positive energy. Ally is a true Libero."
+          bioLink="https://ally-rosa.netlify.app"
+        />
       </SimpleGrid>
       <Text fontSize="3xl" color="#FFFDD0" fontFamily="'Gentium Plus', serif" mt={6}>
         Golf
