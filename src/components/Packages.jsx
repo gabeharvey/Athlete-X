@@ -1,4 +1,4 @@
-import { Box, Text, Button, VStack, Stack } from '@chakra-ui/react';
+import { Box, Text, VStack, Stack } from '@chakra-ui/react'; // Add button if needed
 
 function Packages() {
   return (
@@ -15,7 +15,7 @@ function Packages() {
       py={{ base: '80px', md: '120px', lg: '150px' }}
     >
       <Text fontSize="3xl" color="#FFFDD0" fontFamily="'Changa', cursive" textAlign="center">
-        Standalone Packages
+        <span className="tilt-prism-3">Athlete X Elite</span> Packages
       </Text>
       <Stack
         spacing={10}
@@ -44,12 +44,12 @@ function Packages() {
           }}
         >
           <Text fontSize="2xl" fontWeight="bold" color="#FFFDD0" fontFamily="'Changa', cursive">
-            Spotlight Package $299.00
+            Showcase Package $499.00
           </Text>
-          <Text mt={4} color="#FFFDD0" fontFamily="'Changa', cursive">
-            This package includes player bio, 2 recruit films, 2 digital sports cards, and recruiter contact form.
-          </Text>
-          <Button
+            <Text mt={4} color="#FFFDD0" fontFamily="'Changa', cursive">
+              <span className="tilt-prism-2">Athlete X Elite</span> engineers will code your star athlete app from scratch using the latest technologies. This app will be unique and tailored to best showcase the athlete. Photography and videography will be provided to us. 
+            </Text>
+          {/* <Button
             mt={6}
             fontFamily="'Tilt Prism', sans-serif"
             fontWeight="bold"
@@ -68,10 +68,10 @@ function Packages() {
             }}
           >
             Purchase
-          </Button>
+          </Button> */}
         </Box>
         {/* Feature Package */}
-        <Box
+        {/* <Box
           bgColor="#2C2C2C"
           bgImage="linear-gradient(-45deg, black 25%, transparent 25%, transparent 50%, black 50%, black 75%, transparent 75%, transparent)"
           bgSize="5px 5px"
@@ -117,7 +117,7 @@ function Packages() {
           >
             Purchase
           </Button>
-        </Box>
+        </Box> */}
         {/* Premium Package */}
         <Box
           bgColor="#2C2C2C"
@@ -140,12 +140,12 @@ function Packages() {
           }}
         >
           <Text fontSize="2xl" fontWeight="bold" color="#FFFDD0" fontFamily="'Changa', cursive">
-            Showcase Package $499.00
+            Media Package $999.00
           </Text>
           <Text mt={4} color="#FFFDD0" fontFamily="'Changa', cursive">
-            This package includes player bio, 8 recruit films, 8 digital sports cards, and recruiter contact form. In addition, package includes 2 extra collab sessions, player stat tracker, and player progression tracker.
+            Media Package includes everyting in Showcase Package. Plus, <span className="tilt-prism-2">Athlete X Elite</span> will professionally capture athlete photography and videography. We come to the event. This content will be included in the app.
           </Text>
-          <Button
+          {/* <Button
             mt={6}
             fontFamily="'Tilt Prism', sans-serif"
             fontWeight="bold"
@@ -164,7 +164,7 @@ function Packages() {
             }}
           >
             Purchase
-          </Button>
+          </Button> */}
         </Box>
       </Stack>
     </VStack>

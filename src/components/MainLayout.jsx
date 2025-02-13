@@ -3,7 +3,7 @@ import Home from './Home';
 import Warning from './Warning';
 import About from './About';
 import Celeb from './Celeb';
-import Showcase from './Showcase';
+// import Showcase from './Showcase';
 import Subscription from './Subscription';
 import Progression from './Progression';
 import Packages from './Packages';
@@ -20,7 +20,7 @@ const MainLayout = () => {
       <About />
       <Celeb />
       {/* <Mission /> */}
-      <Showcase />
+      {/* <Showcase /> */}
       <Technology />
       <Progression />
       <Subscription />
