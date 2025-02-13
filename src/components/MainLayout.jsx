@@ -10,6 +10,7 @@ import Packages from './Packages';
 import Technology from './Technology';
 import Bubble from './Bubble';
 // import Mission from './Mission';
+import Podcast from './Podcast';
 
 const MainLayout = () => {
   return (
@@ -19,6 +20,7 @@ const MainLayout = () => {
       <Bubble />
       <About />
       <Celeb />
+      <Podcast />
       {/* <Mission /> */}
       {/* <Showcase /> */}
       <Technology />
