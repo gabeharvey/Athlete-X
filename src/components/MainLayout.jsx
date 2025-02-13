@@ -20,10 +20,10 @@ const MainLayout = () => {
       <Bubble />
       <About />
       <Celeb />
-      <Podcast />
       {/* <Mission /> */}
       {/* <Showcase /> */}
       <Technology />
+      <Podcast />
       <Progression />
       <Subscription />
       <Packages />
