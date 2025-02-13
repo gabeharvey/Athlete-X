@@ -16,10 +16,10 @@ function About() {
     audioRef.current.play();
     setTimeout(() => {
       setIsH2Visible(true);
-    }, 3000);
+    }, 5000);
     setTimeout(() => {
       setIsH3Visible(true);
-    }, 6000);
+    }, 10000);
     setIsButtonVisible(false);
   };
 
@@ -55,7 +55,7 @@ function About() {
       <div className="centered-images">
         <img src="/ll-logo.png" alt="Little League Logo 1" className="small-image" />
       </div>
-      <audio ref={audioRef} src="/drumline-sound.mp3" preload="auto" />
+      <audio ref={audioRef} src="/epic-intro.mp3" preload="auto" />
 
       {/* Social Media Section */}
       <div className="social-media-section">
