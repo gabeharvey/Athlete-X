@@ -15,7 +15,7 @@ function Packages() {
       py={{ base: '80px', md: '120px', lg: '150px' }}
     >
       <Text fontSize="3xl" color="#FFFDD0" fontFamily="'Changa', cursive" textAlign="center">
-        <span className="tilt-prism-3">Athlete X Elite</span> Packages
+        Packages
       </Text>
       <Stack
         spacing={10}
@@ -47,7 +47,7 @@ function Packages() {
             Showcase Package $499.00
           </Text>
             <Text mt={4} color="#FFFDD0" fontFamily="'Changa', cursive">
-              <span className="tilt-prism-2">Athlete X Elite</span> engineers will code your star athlete app from scratch using the latest technologies. This app will be unique and tailored to best showcase the athlete. Photography and videography will be provided to us. 
+              Athlete X Elite engineers will code your star athlete app from scratch using the latest technologies. This app will be unique and tailored to best showcase the athlete. Photography and videography will be provided to us. 
             </Text>
           {/* <Button
             mt={6}
@@ -143,7 +143,7 @@ function Packages() {
             Media Package $999.00
           </Text>
           <Text mt={4} color="#FFFDD0" fontFamily="'Changa', cursive">
-            Media Package includes everyting in Showcase Package. Plus, <span className="tilt-prism-2">Athlete X Elite</span> will professionally capture athlete photography and videography. We come to the event. This content will be included in the app.
+            Media Package includes everyting in Showcase Package. Plus, Athlete X Elite will professionally capture athlete photography and videography. We come to the event. This content will be included in the app.
           </Text>
           {/* <Button
             mt={6}
