@@ -44,7 +44,7 @@ function Subscription() {
           }}
         >
           <Text fontSize="2xl" fontWeight="bold" color="#FFFDD0" fontFamily="'Changa', cursive">
-            Monthly Subscription $29.00
+            Monthly Subscription $39.00
           </Text>
           <Text mt={4} color="#FFFDD0" fontFamily="'Changa', cursive">
             Athlete X Elite will highlight athlete progression and provide college recruiters with the information they specifically seek. Get positioned next to top athletes in your sport with feedback from former professional athletes.
