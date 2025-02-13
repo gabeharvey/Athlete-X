@@ -30,7 +30,7 @@ function Podcast() {
           bgSize="5px 5px"
           borderRadius="12px"
           p={6}
-          w="350px"
+          w="300px"
           h="450px"
           textAlign="center"
           boxShadow="0 0 15px rgba(0, 0, 0, 0.7)"
@@ -67,7 +67,7 @@ function Podcast() {
           bgSize="5px 5px"
           borderRadius="12px"
           p={6}
-          w="350px"
+          w="300px"
           h="450px"
           textAlign="center"
           boxShadow="0 0 15px rgba(0, 0, 0, 0.7)"
