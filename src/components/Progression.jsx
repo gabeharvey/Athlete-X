@@ -2,26 +2,52 @@ import { Box, Text, Image, VStack, Stack } from '@chakra-ui/react';
 
 function Progression() {
   return (
-    <VStack
-    spacing={8}
-    align="center"
-    justify="center"
-    p={10}
-    bgImage="url('/basketball.png')" 
-    bgSize="contain" 
-    bgPosition="center" 
-    bgRepeat="no-repeat"
-    minHeight="100vh" 
-    py={{ base: '80px', md: '120px', lg: '150px' }} 
-    >
-      <Text fontSize="3xl" color="#FFFDD0" fontFamily="'Changa', cursive" textAlign="center">
-        Athlete Progression
-      </Text>
+<VStack
+  spacing={8}
+  align="center"
+  justify="center"
+  p={10}
+  bgImage="url('/basketball.png')" 
+  bgSize="contain" 
+  bgPosition="center" 
+  bgRepeat="no-repeat"
+  minHeight="100vh" 
+  py={{ base: '80px', md: '120px', lg: '150px' }}
+  position="relative"
+  w="50%" 
+  mx="auto"
+>
+  <Text fontSize="3xl" color="#FFFDD0" fontFamily="'Changa', cursive" textAlign="center">
+    Athlete Progression
+  </Text>
+
+  {/* Coming Soon Banner */}
+  <Box
+    position="absolute"
+    top="250px"
+    left="50%" 
+    transform="translateX(-50%) rotate(-5deg)"
+    bg="rgba(255, 0, 0, 0.8)"
+    color="white"
+    fontSize="md"
+    fontWeight="bold"
+    px={2}
+    py={2}
+    borderRadius="8px"
+    boxShadow="0 0 15px rgba(0, 0, 0, 0.5)"
+    zIndex="2"
+    minWidth="150px"
+    fontFamily="'Tilt Prism', cursive"
+    textAlign="center"
+  >
+    Coming Soon
+  </Box>
 
       <Stack
         spacing={10}
         direction={{ base: 'column', md: 'row' }} 
         align="center"
+        position="relative"
       >
         {/* First Progression Box */}
         <Box
