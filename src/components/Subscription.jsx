@@ -1,4 +1,4 @@
-import { Box, Text, Button, VStack, Stack } from '@chakra-ui/react';
+import { Box, Text, VStack, Stack } from '@chakra-ui/react'; // Add button if needed
 
 function Subscription() {
   return (
@@ -47,9 +47,9 @@ function Subscription() {
             Monthly Subscription $39.00
           </Text>
           <Text mt={4} color="#FFFDD0" fontFamily="'Changa', cursive">
-            Athlete X Elite will highlight athlete progression and provide college recruiters with the information they specifically seek. Get positioned next to top athletes in your sport with feedback from former professional athletes.
+            Get your star athlete positioned next to top athletes in your sport. Get ongoing feedback and guidance from athletes who have played at the pinnacle of their sport and include info in app for recruiters to see. We will collab once a month to update app features, if needed. We want your star athlete to succeed!
           </Text>
-          <Button
+          {/* <Button
             mt={6}
             fontFamily="'Tilt Prism', sans-serif"
             fontWeight="bold"
@@ -68,7 +68,7 @@ function Subscription() {
             }}
           >
             Subscribe
-          </Button>
+          </Button> */}
         </Box>
         {/* Yearly Plan */}
         <Box
@@ -92,12 +92,12 @@ function Subscription() {
           }}
         >
           <Text fontSize="2xl" fontWeight="bold" color="#FFFDD0" fontFamily="'Changa', cursive">
-            Yearly Subscription $299.00
+            Yearly Subscription $399.00
           </Text>
           <Text mt={4} color="#FFFDD0" fontFamily="'Changa', cursive">
             Save big with our yearly plan! Includes all monthly features plus exclusive yearly events and priority access to top recruiting resources.
           </Text>
-          <Button
+          {/* <Button
             mt={6}
             fontFamily="'Tilt Prism', sans-serif"
             fontWeight="bold"
@@ -116,7 +116,7 @@ function Subscription() {
             }}
           >
             Subscribe
-          </Button>
+          </Button> */}
         </Box>
       </Stack>
     </VStack>
