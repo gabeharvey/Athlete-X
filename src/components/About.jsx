@@ -40,7 +40,7 @@ function About() {
       <div className="fancy-divider"></div>
       {isH3Visible && (
         <h3 className="zoom-in">
-          It is crucial to stand out! The talent and skills are there. People want to see it quickly and First Class!
+          It is crucial to stand out! The talent and skills are there. People want to see it all quickly and First Class!
         </h3>
       )}
       <p className="centered-text">
