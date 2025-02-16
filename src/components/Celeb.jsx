@@ -86,7 +86,7 @@ function Celeb() {
             "There are many aspects to consider in the recruiting process. Athlete X Elite displays athletic skills but also highlights other aspects that make an athlete stand out. Athlete X Elite will treat you like family."
           </Text>
           <Text fontSize="lg" fontWeight="bold" color="#FFFDD0" fontFamily="'Changa', cursive">
-            - Madison Nunn, 2023 NFCA Softball First Team All-American!
+            - Madison Nunn, Our Lady of the Lake University, 2023 NFCA Softball First Team All-American!
           </Text>
         </Box>
       </Stack>
