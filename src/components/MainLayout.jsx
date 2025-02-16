@@ -16,8 +16,8 @@ const MainLayout = () => {
   return (
     <>
       <Home />
-      <Warning />
       <Bubble />
+      <Warning />
       <About />
       <Celeb />
       {/* <Mission /> */}
