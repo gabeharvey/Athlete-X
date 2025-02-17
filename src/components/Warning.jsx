@@ -8,7 +8,7 @@ const Warning = () => {
       <span style={{ fontFamily: "'Tilt Prism', cursive", fontWeight: "bold" }}>Athlete X Elite</span> is Texas born and bred. Your star athlete should not be a number in a database. We believe they are more.
       Why the #<span style={{ fontFamily: "'Tilt Prism', cursive", fontWeight: "bold" }}>1</span> and cream colors?{" "}
       <span style={{ fontFamily: "'Tilt Prism', cursive", fontWeight: "bold" }}>Athlete X Elite</span> treats every
-      athlete as the #<span style={{ fontFamily: "'Tilt Prism', cursive", fontWeight: "bold" }}>1</span> draft pick. We believe every athlete is unique and <span style={{ fontFamily: "'Tilt Prism', cursive", fontWeight: "bold" }}>1 / 1</span>. In this spirit, every app we design is coded from scratch, unique, and cream of the crop.
+      athlete as the #<span style={{ fontFamily: "'Tilt Prism', cursive", fontWeight: "bold" }}>1</span> draft pick. We believe every athlete is <span style={{ fontFamily: "'Tilt Prism', cursive", fontWeight: "bold" }}>1 / 1</span>. In this spirit, every app we design is coded from scratch and unique.
     </>
   );
 
