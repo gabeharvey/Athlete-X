@@ -392,8 +392,8 @@
   display: flex;
   justify-content: center;
   flex-wrap: wrap; 
-  gap: 15px; 
-  padding: 7px;
+  gap: 7px; 
+  padding: 10px;
   max-width: 100%;
 }
 
