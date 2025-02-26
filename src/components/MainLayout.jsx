@@ -1,6 +1,6 @@
 // MainLayout.jsx
 import Home from './Home';
-import Warning from './Warning';
+// import Warning from './Warning';
 import About from './About';
 import Celeb from './Celeb';
 // import Showcase from './Showcase';
@@ -17,7 +17,7 @@ const MainLayout = () => {
     <>
       <Home />
       <Bubble />
-      <Warning />
+      {/* <Warning /> */}
       <About />
       <Celeb />
       {/* <Mission /> */}
