@@ -178,7 +178,7 @@ function Elite() {
           name="Cruz Cantu"
           bio="Cruz Cantu is known for power and toughness. A steady player with a calm demeanor that flourishes in high pressure situations."
           bioLink="https://cruz-cantu.netlify.app"
-          isUnderConstruction={true}
+          isUnderConstruction={false}
         />
         {/* Add more men's basketball cards as needed */}
       </SimpleGrid>
