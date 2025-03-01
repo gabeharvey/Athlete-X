@@ -4,7 +4,7 @@ import Home from './Home';
 import About from './About';
 import Celeb from './Celeb';
 // import Showcase from './Showcase';
-import Subscription from './Subscription';
+// import Subscription from './Subscription';
 import Progression from './Progression';
 import Packages from './Packages';
 import Technology from './Technology';
@@ -25,7 +25,7 @@ const MainLayout = () => {
       <Technology />
       <Podcast />
       <Progression />
-      <Subscription />
+      {/* <Subscription /> */}
       <Packages />
     </>
   );

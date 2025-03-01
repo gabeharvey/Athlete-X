@@ -143,7 +143,7 @@ function Packages() {
             Media Package $799.00
           </Text>
           <Text mt={4} color="#FFFDD0" fontFamily="'Changa', cursive">
-            Media Package includes everyting in Showcase Package. Plus, Athlete X Elite will professionally capture athlete photography and videography. We come to the event. This content will be included in the app.
+            Media Package includes everything in Showcase Package. Plus, Athlete X Elite will professionally capture athlete photography and videography. We come to the event. This content will be included in the app.
           </Text>
           {/* <Button
             mt={6}
