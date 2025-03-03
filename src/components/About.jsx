@@ -67,7 +67,7 @@ function About() {
             rel="noopener noreferrer"
             aria-label="Facebook"
           >
-            <FaFacebook size={30} style={{ margin: '0 10px', color: '#3b5998' }} />
+            <FaFacebook size={40} style={{ margin: '0 10px', color: '#3b5998' }} />
           </a>
           <a
             href="https://www.instagram.com/athlete_x_elite"
@@ -75,7 +75,7 @@ function About() {
             rel="noopener noreferrer"
             aria-label="Instagram"
           >
-            <FaInstagram size={30} style={{ margin: '0 10px', color: '#E4405F' }} />
+            <FaInstagram size={40} style={{ margin: '0 10px', color: '#E4405F' }} />
           </a>
           <a
             href="https://www.threads.net/athlete_x_elite"
@@ -83,7 +83,7 @@ function About() {
             rel="noopener noreferrer"
             aria-label="Threads"
           >
-            <PiThreadsLogoBold size={30} style={{ margin: '0 10px', color: '#FFFDD0' }} />
+            <PiThreadsLogoBold size={40} style={{ margin: '0 10px', color: '#FFFDD0' }} />
           </a>
           <a
             href="https://www.youtube.com/@AthleteXElite" 
@@ -91,7 +91,7 @@ function About() {
             rel="noopener noreferrer"
             aria-label="YouTube"
           >
-            <FaYoutube size={30} style={{ margin: '0 10px', color: '#FF0000' }} />
+            <FaYoutube size={40} style={{ margin: '0 10px', color: '#FF0000' }} />
           </a>
           <a
             href="https://www.snapchat.com/add/AthleteXElite" 
@@ -99,7 +99,7 @@ function About() {
             rel="noopener noreferrer"
             aria-label="Snapchat"
           >
-            <FaSnapchatGhost size={30} style={{ margin: '0 10px', color: '#FFFC00' }} />
+            <FaSnapchatGhost size={40} style={{ margin: '0 10px', color: '#FFFC00' }} />
           </a>
           <a
             href="https://www.tiktok.com/@athlete_x_elite"
@@ -107,7 +107,7 @@ function About() {
             rel="noopener noreferrer"
             aria-label="TikTok"
           >
-            <FaTiktok size={30} style={{ margin: '0 10px', color: '#69C9D0' }} />
+            <FaTiktok size={40} style={{ margin: '0 10px', color: '#69C9D0' }} />
           </a>
         </div>
       </div>
