@@ -109,7 +109,7 @@ function Technology() {
             Our Collaborative Approach
           </Text>
           <Text color="#FFFDD0" fontFamily="'Changa', cursive" mb={4}>
-            Athlete X Elite engineers work closely to design custom applications for each athlete, ensuring a unique experience tailored to achieve their goals.
+            Athlete X Elite engineers work closely to design custom websites for each athlete, ensuring a unique experience tailored to achieve their goals.
           </Text>
           <Image 
             src="/comp-engineers.png" 
