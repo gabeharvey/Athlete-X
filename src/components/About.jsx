@@ -111,6 +111,11 @@ function About() {
           </a>
         </div>
       </div>
+      <div className="elite-button-container">
+        <Link to="/elite">
+          <button className="clickMe" style={{ marginTop: '100px' }}>Unlock The Elite</button>
+        </Link>
+      </div>
     </div>
   );
 }

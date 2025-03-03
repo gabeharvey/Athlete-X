@@ -7,13 +7,15 @@ function Podcast() {
       align="center"
       justify="center"
       p={10}
-      bgImage="url('/basketball.png')"
-      bgSize="contain"
-      bgPosition="center"
+      bgImage="url('/basketball.png')" 
+      bgSize="contain" 
+      bgPosition="center" 
       bgRepeat="no-repeat"
-      minHeight="100vh"
+      minHeight="100vh" 
       py={{ base: '80px', md: '120px', lg: '150px' }}
       position="relative"
+      w="50%" 
+      mx="auto"
     >
       <Text fontSize="3xl" color="#FFFDD0" fontFamily="'Changa', cursive" textAlign="center">
         <span className="tilt-prism-3">Athlete X Elite</span> Podcast 
