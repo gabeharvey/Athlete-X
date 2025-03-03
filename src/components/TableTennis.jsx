@@ -1,4 +1,5 @@
 import { Box, Text, Button, VStack } from '@chakra-ui/react';
+import { Link } from 'react-router-dom';
 
 function TableTennis() {
   return (
@@ -64,6 +65,7 @@ function TableTennis() {
         <Text mt={4} color="#FFFDD0" fontFamily="'Changa', cursive">
           A professionally edited video can effectively display your strengths, making you a standout candidate for recruitment.
         </Text>
+        <Link to="/contact">
         <Button
           mt={6}
           fontFamily="'Tilt Prism', sans-serif"
@@ -82,8 +84,9 @@ function TableTennis() {
             transform: 'scale(1.05)',
           }}
         >
-          Learn More
+          Design Table Tennis Profile
         </Button>
+      </Link>
       </Box>
     </VStack>
   );

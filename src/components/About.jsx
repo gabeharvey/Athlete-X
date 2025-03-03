@@ -35,7 +35,7 @@ function About() {
       </h1>
       <div className="fancy-divider"></div>
       <h2 className={isH2Visible ? 'zoom-in' : ''}>
-        Mobile friendly, yet responsive app showcasing athletic abilities and journey.
+        Mobile friendly, yet responsive website showcasing athletic abilities and journey.
       </h2>
       <div className="fancy-divider"></div>
       {isH3Visible && (

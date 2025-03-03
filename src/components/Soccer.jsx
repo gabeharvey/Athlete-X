@@ -1,4 +1,5 @@
 import { Box, Text, Button, VStack } from '@chakra-ui/react';
+import { Link } from 'react-router-dom';
 
 function Soccer() {
   return (
@@ -64,6 +65,7 @@ function Soccer() {
         <Text mt={4} color="#FFFDD0" fontFamily="'Changa', cursive">
           A well-produced video can effectively illustrate your strengths on the field, positioning you as a standout player and providing valuable insights into your potential.
         </Text>
+        <Link to="/contact">
         <Button
           mt={6}
           fontFamily="'Tilt Prism', sans-serif"
@@ -82,8 +84,9 @@ function Soccer() {
             transform: 'scale(1.05)',
           }}
         >
-          Learn More
+          Design Soccer Profile
         </Button>
+      </Link>
       </Box>
     </VStack>
   );

@@ -47,7 +47,7 @@ function Packages() {
             Showcase Package $499.00
           </Text>
             <Text mt={4} color="#FFFDD0" fontFamily="'Changa', cursive">
-              Athlete X Elite engineers will code your star athlete app from scratch using the latest technologies. This app will be unique and tailored to best showcase the athlete. Photography and videography will be provided to us. 
+              Athlete X Elite engineers will code your star athlete custom website from scratch using the latest technologies. This custom website will be unique and tailored to best showcase the athlete. Photography and videography will be provided to us. 
             </Text>
           {/* <Button
             mt={6}
@@ -143,7 +143,7 @@ function Packages() {
             Media Package $799.00
           </Text>
           <Text mt={4} color="#FFFDD0" fontFamily="'Changa', cursive">
-            Media Package includes everything in Showcase Package. Plus, Athlete X Elite will professionally capture athlete photography and videography. We come to the event. This content will be included in the app.
+            Media Package includes everything in Showcase Package. Plus, Athlete X Elite will professionally capture athlete photography and videography. We come to the event. This content will be included in the custom athlete website.
           </Text>
           {/* <Button
             mt={6}

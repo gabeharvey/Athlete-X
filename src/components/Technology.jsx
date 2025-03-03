@@ -17,7 +17,7 @@ function Technology() {
     py={{ base: '80px', md: '120px', lg: '150px' }} 
     >
       <Text fontSize="3xl" color="#FFFDD0" fontFamily="'Changa', cursive" textAlign="center">
-        Technology Behind Elite Athlete Applications
+        Technology Behind Elite Athlete Websites
       </Text>
 
       <Stack
@@ -53,7 +53,7 @@ function Technology() {
             <SiChakraui color="#319795" size="80px" /> {/* Chakra UI Icon */}
           </Stack>
           <Text color="#FFFDD0" fontFamily="'Changa', cursive">
-            Every application is built using modern technologies like React and Chakra UI to ensure flexibility and top-notch user experience. We believe every athlete is unique and every application should be unique as well.
+            Every website is built using modern technologies like React and Chakra UI to ensure flexibility and top-notch user experience. We believe every athlete is unique and every website should be unique as well.
           </Text>
         </Box>
 
@@ -81,7 +81,7 @@ function Technology() {
             <span className="tilt-prism-3">Athlete X Elite</span> is a World Where Code Meets Sports
           </Text>
           <Text color="#FFFDD0" fontFamily="'Changa', cursive">
-            React and Chakra UI allow us to build fully responsive applications, perfect for elite athletes. Recruiters can view them on any device size. Each app is coded from scratch to ensure top performance and scalability.
+            React and Chakra UI allow us to build fully responsive websites, perfect for elite athletes. Recruiters can view them on any device size. Each website is coded from scratch to ensure top performance and scalability.
           </Text>
         </Box>
 

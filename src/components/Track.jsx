@@ -1,4 +1,5 @@
 import { Box, Text, Button, VStack } from '@chakra-ui/react';
+import { Link } from 'react-router-dom';
 
 function Track() {
   return (
@@ -64,6 +65,7 @@ function Track() {
         <Text mt={4} color="#FFFDD0" fontFamily="'Changa', cursive">
           A compelling highlight reel can demonstrate your capabilities and determination, helping you to stand out in the recruiting process.
         </Text>
+        <Link to="/contact">
         <Button
           mt={6}
           fontFamily="'Tilt Prism', sans-serif"
@@ -82,8 +84,9 @@ function Track() {
             transform: 'scale(1.05)',
           }}
         >
-          Learn More
+          Design Track Profile
         </Button>
+      </Link>
       </Box>
     </VStack>
   );

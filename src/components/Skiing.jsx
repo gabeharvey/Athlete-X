@@ -1,4 +1,5 @@
 import { Box, Text, Button, VStack } from '@chakra-ui/react';
+import { Link } from 'react-router-dom';
 
 function Skiing() {
   return (
@@ -64,6 +65,7 @@ function Skiing() {
         <Text mt={4} color="#FFFDD0" fontFamily="'Changa', cursive">
           A well-crafted highlight reel can effectively communicate your competitive edge and dedication, making a lasting impression on recruiters.
         </Text>
+        <Link to="/contact">
         <Button
           mt={6}
           fontFamily="'Tilt Prism', sans-serif"
@@ -82,8 +84,9 @@ function Skiing() {
             transform: 'scale(1.05)',
           }}
         >
-          Learn More
+          Design Skiing Profile
         </Button>
+      </Link>
       </Box>
     </VStack>
   );

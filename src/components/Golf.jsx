@@ -1,4 +1,5 @@
 import { Box, Text, Button, VStack } from '@chakra-ui/react';
+import { Link } from 'react-router-dom';
 
 function Golf() {
   return (
@@ -64,6 +65,7 @@ function Golf() {
         <Text mt={4} color="#FFFDD0" fontFamily="'Changa', cursive">
           A well-produced highlight reel can effectively showcase your strengths, setting you apart from other recruits and attracting the attention of coaches.
         </Text>
+        <Link to="/contact">
         <Button
           mt={6}
           fontFamily="'Tilt Prism', sans-serif"
@@ -82,8 +84,9 @@ function Golf() {
             transform: 'scale(1.05)',
           }}
         >
-          Learn More
+          Design Golf Profile
         </Button>
+      </Link>
       </Box>
     </VStack>
   );

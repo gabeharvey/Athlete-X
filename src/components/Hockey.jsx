@@ -1,4 +1,5 @@
 import { Box, Text, Button, VStack } from '@chakra-ui/react';
+import { Link } from 'react-router-dom';
 
 function Hockey() {
   return (
@@ -64,6 +65,7 @@ function Hockey() {
         <Text mt={4} color="#FFFDD0" fontFamily="'Changa', cursive">
           A well-edited highlight reel can effectively illustrate your strengths, making you a standout candidate for recruitment.
         </Text>
+        <Link to="/contact">
         <Button
           mt={6}
           fontFamily="'Tilt Prism', sans-serif"
@@ -82,8 +84,9 @@ function Hockey() {
             transform: 'scale(1.05)',
           }}
         >
-          Learn More
+          Design Hockey Profile
         </Button>
+      </Link>
       </Box>
     </VStack>
   );

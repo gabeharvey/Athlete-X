@@ -1,4 +1,5 @@
 import { Box, Text, Button, VStack } from '@chakra-ui/react';
+import { Link } from 'react-router-dom';
 
 function Football() {
   return (
@@ -64,6 +65,7 @@ function Football() {
         <Text mt={4} color="#FFFDD0" fontFamily="'Changa', cursive">
           A well-edited highlight reel can emphasize your strengths, such as speed, agility, and game awareness, giving recruiters a clear view of your potential as a player.
         </Text>
+        <Link to="/contact">
         <Button
           mt={6}
           fontFamily="'Tilt Prism', sans-serif"
@@ -82,8 +84,9 @@ function Football() {
             transform: 'scale(1.05)',
           }}
         >
-          Learn More
+          Design Football Profile
         </Button>
+      </Link>
       </Box>
     </VStack>
   );

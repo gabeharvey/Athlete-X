@@ -13,11 +13,31 @@ function Podcast() {
       bgRepeat="no-repeat"
       minHeight="100vh"
       py={{ base: '80px', md: '120px', lg: '150px' }}
+      position="relative"
     >
       <Text fontSize="3xl" color="#FFFDD0" fontFamily="'Changa', cursive" textAlign="center">
-        <span className="tilt-prism-3">Athlete X Elite</span> Podcast Coming Soon!
+        <span className="tilt-prism-3">Athlete X Elite</span> Podcast 
       </Text>
-
+      <Box
+            position="absolute"
+            top="250px"
+            left="50%" 
+            transform="translateX(-50%) rotate(-5deg)"
+            bg="rgba(255, 0, 0, 0.8)"
+            color="white"
+            fontSize="md"
+            fontWeight="bold"
+            px={2}
+            py={2}
+            borderRadius="8px"
+            boxShadow="0 0 15px rgba(0, 0, 0, 0.5)"
+            zIndex="2"
+            minWidth="150px"
+            fontFamily="'Tilt Prism', cursive"
+            textAlign="center"
+          >
+            Coming Soon
+          </Box>
       <Stack
         spacing={10}
         direction={{ base: 'column', md: 'row' }}

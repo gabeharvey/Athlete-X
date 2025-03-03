@@ -1,4 +1,5 @@
 import { Box, Text, Button, VStack } from '@chakra-ui/react';
+import { Link } from 'react-router-dom';
 
 function Weightlifting() {
   return (
@@ -64,6 +65,7 @@ function Weightlifting() {
         <Text mt={4} color="#FFFDD0" fontFamily="'Changa', cursive">
           A well-edited video can highlight your strength, determination, and commitment, positioning you as a serious contender in the weightlifting arena.
         </Text>
+        <Link to="/contact">
         <Button
           mt={6}
           fontFamily="'Tilt Prism', sans-serif"
@@ -82,8 +84,9 @@ function Weightlifting() {
             transform: 'scale(1.05)',
           }}
         >
-          Learn More
+          Design Weightlifting Profile
         </Button>
+      </Link>
       </Box>
     </VStack>
   );

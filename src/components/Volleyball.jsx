@@ -1,4 +1,5 @@
 import { Box, Text, Button, VStack } from '@chakra-ui/react';
+import { Link } from 'react-router-dom';
 
 function Volleyball() {
   return (
@@ -64,6 +65,7 @@ function Volleyball() {
         <Text mt={4} color="#FFFDD0" fontFamily="'Changa', cursive">
           A well-crafted video can emphasize your strengths and provide a clear, visual demonstration of your performance, helping coaches see how you can contribute to their team.
         </Text>
+        <Link to="/contact">
         <Button
           mt={6}
           fontFamily="'Tilt Prism', sans-serif"
@@ -82,8 +84,9 @@ function Volleyball() {
             transform: 'scale(1.05)',
           }}
         >
-          Learn More
+          Design Volleyball Profile
         </Button>
+      </Link>
       </Box>
     </VStack>
   );
