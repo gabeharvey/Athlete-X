@@ -47,7 +47,7 @@ function Packages() {
             Junior Package $299.00
           </Text>
             <Text mt={4} color="#FFFDD0" fontFamily="'Changa', cursive">
-              Athlete X Elite engineers will code your athlete website from scratch using the latest technologies. This package is recommended for ages 10 and under and can later be upgraded to Showcase Package for additional cost. Many athlete journeys start here. Phototography and Videography will be provided to us.
+              Athlete X Elite engineers will code your athlete website from scratch. This package is recommended for ages 10 and under and can later be upgraded to Showcase Package for additional cost. Many athlete journeys start here. Phototography and Videography will be provided to us.
             </Text>
           {/* <Button
             mt={6}
