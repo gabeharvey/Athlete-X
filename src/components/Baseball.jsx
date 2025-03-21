@@ -35,10 +35,10 @@ function Baseball() {
           Building a Strong Baseball Profile
         </Text>
         <Text mt={4} color="#FFFDD0" fontFamily="'Changa', cursive">
-          A well-crafted baseball recruiting profile is essential for attracting the attention of college coaches. Display batting average, pitching stats, and other achievements to showcase your skills.
+          A well-crafted baseball recruiting profile is essential for attracting the attention of college coaches. Display your batting average, pitching stats, and other achievements to showcase your skills.
         </Text>
         <Text mt={4} color="#FFFDD0" fontFamily="'Changa', cursive">
-          Providing details on your strengths, such as speed, fielding ability, and versatility, can help coaches evaluate potential and synergy for their team.
+          Providing details on your strengths, such as speed, fielding ability, and versatility, can help coaches evaluate your potential and synergy for their team.
         </Text>
       </Box>
       <Box
