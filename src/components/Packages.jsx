@@ -44,10 +44,10 @@ function Packages() {
           }}
         >
           <Text fontSize="2xl" fontWeight="bold" color="#FFFDD0" fontFamily="'Changa', cursive">
-            Showcase Package $499.00
+            Junior Package $299.00
           </Text>
             <Text mt={4} color="#FFFDD0" fontFamily="'Changa', cursive">
-              Athlete X Elite engineers will code your star athlete custom website from scratch using the latest technologies. This custom website will be unique and tailored to best showcase the athlete. Photography and videography will be provided to us. 
+              Athlete X Elite engineers will code your athlete website from scratch using the latest technologies. This package is recommended for ages 10 and under and can later be upgraded to Showcase Package for additional cost. Many athlete journeys start here. Phototography and Videography will be provided to us.
             </Text>
           {/* <Button
             mt={6}
@@ -71,7 +71,7 @@ function Packages() {
           </Button> */}
         </Box>
         {/* Feature Package */}
-        {/* <Box
+        <Box
           bgColor="#2C2C2C"
           bgImage="linear-gradient(-45deg, black 25%, transparent 25%, transparent 50%, black 50%, black 75%, transparent 75%, transparent)"
           bgSize="5px 5px"
@@ -92,12 +92,12 @@ function Packages() {
           }}
         >
           <Text fontSize="2xl" fontWeight="bold" color="#FFFDD0" fontFamily="'Changa', cursive">
-            Feature Package $399.00
+            Showcase Package $499.00
           </Text>
           <Text mt={4} color="#FFFDD0" fontFamily="'Changa', cursive">
-            This package includes player bio, 4 recruit films, 4 digital sports cards, and recruiter contact form. In addition, package includes extra collab session.
+            Athlete X Elite engineers will code your star athlete custom website from scratch using the latest technologies. This custom website will be unique and tailored to best showcase the athlete as a player and student. Photography and videography will be provided to us.
           </Text>
-          <Button
+          {/* <Button
             mt={6}
             fontFamily="'Tilt Prism', sans-serif"
             fontWeight="bold"
@@ -116,8 +116,8 @@ function Packages() {
             }}
           >
             Purchase
-          </Button>
-        </Box> */}
+          </Button> */}
+        </Box>
         {/* Premium Package */}
         <Box
           bgColor="#2C2C2C"
