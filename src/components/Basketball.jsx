@@ -60,10 +60,10 @@ function Basketball() {
           The Value of Highlight Reels
         </Text>
         <Text mt={4} color="#FFFDD0" fontFamily="'Changa', cursive">
-          Highlight reels play a critical role in showcasing your skills to recruiters. They offer a concise view of your athleticism, court awareness, and technical skills, allowing coaches to evaluate potential.
+          Highlight reels play a critical role in showcasing your skills to recruiters. They offer a concise view of your athleticism, court awareness, and technical skills, allowing coaches to evaluate your potential.
         </Text>
         <Text mt={4} color="#FFFDD0" fontFamily="'Changa', cursive">
-          A well-edited highlight video can significantly enhance your profile, helping you stand out as a talented player and providing a visual reference to complement achievements.
+          A well-edited highlight video can significantly enhance your profile, helping you stand out as a talented player and providing a visual reference to complement your achievements.
         </Text>
         <Link to="/contact">
         <Button
