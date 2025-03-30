@@ -23,7 +23,7 @@ function Packages() {
         align="center"
       >
         {/* Spotlight Package */}
-        <Box
+        {/* <Box
           bgColor="#2C2C2C"
           bgImage="linear-gradient(-45deg, black 25%, transparent 25%, transparent 50%, black 50%, black 75%, transparent 75%, transparent)"
           bgSize="5px 5px"
@@ -48,7 +48,7 @@ function Packages() {
           </Text>
             <Text mt={4} color="#FFFDD0" fontFamily="'Changa', cursive">
               Athlete X Elite engineers will code your athlete website from scratch. This package can later be upgraded to Showcase Package for additional cost. Many athlete journeys start here. Phototography and Videography will be provided to us.
-            </Text>
+            </Text> */}
           {/* <Button
             mt={6}
             fontFamily="'Tilt Prism', sans-serif"
@@ -69,7 +69,7 @@ function Packages() {
           >
             Purchase
           </Button> */}
-        </Box>
+        {/* </Box> */}
         {/* Feature Package */}
         <Box
           bgColor="#2C2C2C"
@@ -140,7 +140,7 @@ function Packages() {
           }}
         >
           <Text fontSize="2xl" fontWeight="bold" color="#FFFDD0" fontFamily="'Changa', cursive">
-            Media Package $699.00
+            Media Package $799.00
           </Text>
           <Text mt={4} color="#FFFDD0" fontFamily="'Changa', cursive">
             Media Package includes everything in Showcase Package. Plus, Athlete X Elite will professionally capture athlete photography and videography. We come to the event. This content will be included in the custom athlete website.
