@@ -200,7 +200,7 @@ function Elite() {
           isUnderConstruction={true}
         />
         <Card
-          frontImg="ai-basketball-placeholder.png"
+          frontImg="valentina-20.jpg"
           name="Valentina Cantu"
           bio="Valentina Cantu is a dominant force on the court, known for her strength and agility. A powerful rebounder and a tenacious defender, she excels in the paint, controlling both ends of the floor."
           bioLink="https://valentina-cantu.netlify.app"
