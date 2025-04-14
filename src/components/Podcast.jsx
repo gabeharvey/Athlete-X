@@ -18,7 +18,7 @@ function Podcast() {
       mx="auto"
     >
       <Text fontSize="3xl" color="#FFFDD0" fontFamily="'Changa', cursive" textAlign="center">
-        <span className="tilt-prism-3">Athlete X Elite</span> Podcast 
+        Podcast 
       </Text>
       <Box
             position="absolute"
