@@ -5,7 +5,7 @@ import About from './About';
 import Celeb from './Celeb';
 // import Showcase from './Showcase';
 // import Subscription from './Subscription';
-import Progression from './Progression';
+// import Progression from './Progression';
 import Packages from './Packages';
 import Technology from './Technology';
 import Bubble from './Bubble';
@@ -24,7 +24,7 @@ const MainLayout = () => {
       {/* <Showcase /> */}
       <Technology />
       <Podcast />
-      <Progression />
+      {/* <Progression /> */}
       {/* <Subscription /> */}
       <Packages />
     </>
