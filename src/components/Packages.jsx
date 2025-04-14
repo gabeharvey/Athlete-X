@@ -1,4 +1,5 @@
-import { Box, Text, VStack, Stack } from '@chakra-ui/react'; // Add button if needed
+import { Box, Text, VStack, Stack, Button } from '@chakra-ui/react'; 
+import { Link } from 'react-router-dom';
 
 function Packages() {
   return (
@@ -15,7 +16,7 @@ function Packages() {
       py={{ base: '80px', md: '120px', lg: '150px' }}
     >
       <Text fontSize="3xl" color="#FFFDD0" fontFamily="'Changa', cursive" textAlign="center">
-        Packages
+        Ready to Join Athlete X Elite Family?
       </Text>
       <Stack
         spacing={10}
@@ -92,79 +93,33 @@ function Packages() {
           }}
         >
           <Text fontSize="2xl" fontWeight="bold" color="#FFFDD0" fontFamily="'Changa', cursive">
-            Showcase Package $499.00
+            1/1 Website $499.00
           </Text>
           <Text mt={4} color="#FFFDD0" fontFamily="'Changa', cursive">
-            Athlete X Elite engineers will code your star athlete custom website from scratch using the latest technologies. This custom website will be unique and tailored to best showcase the athlete as a player and student. Photography and videography will be provided to us.
+            Athlete X Elite engineers will code your star athlete custom website from scratch using the latest technologies. This custom website will be unique and tailored to best showcase the athlete as a player and student.
           </Text>
-          {/* <Button
-            mt={6}
-            fontFamily="'Tilt Prism', sans-serif"
-            fontWeight="bold"
-            bg="transparent"
-            color="#FFFDD0"
-            border="2px solid #FFA500"
-            borderRadius="8px"
-            padding="10px 20px"
-            fontSize="18px"
-            cursor="pointer"
-            transition="all 0.3s ease"
-            _hover={{
-              bg: '#FFA500',
-              color: 'white',
-              transform: 'scale(1.05)',
-            }}
-          >
-            Purchase
-          </Button> */}
-        </Box>
-        {/* Premium Package */}
-        <Box
-          bgColor="#2C2C2C"
-          bgImage="linear-gradient(-45deg, black 25%, transparent 25%, transparent 50%, black 50%, black 75%, transparent 75%, transparent)"
-          bgSize="5px 5px"
-          borderRadius="12px"
-          p={8}
-          w="300px"
-          h="375px"
-          textAlign="center"
-          boxShadow="0 0 15px rgba(0, 0, 0, 0.7)"
-          display="flex"
-          flexDirection="column"
-          justifyContent="center"
-          alignItems="center"
-          transition="transform 0.3s, box-shadow 0.3s"
-          _hover={{
-            transform: 'translateY(-10px)',
-            boxShadow: '0 8px 16px rgba(0, 0, 0, 0.9)',
-          }}
-        >
-          <Text fontSize="2xl" fontWeight="bold" color="#FFFDD0" fontFamily="'Changa', cursive">
-            Media Package $799.00
-          </Text>
-          <Text mt={4} color="#FFFDD0" fontFamily="'Changa', cursive">
-            Media Package includes everything in Showcase Package. Plus, Athlete X Elite will professionally capture athlete photography and videography. We come to the event. This content will be included in the custom athlete website.
-          </Text>
-          {/* <Button
-            mt={6}
-            fontFamily="'Tilt Prism', sans-serif"
-            fontWeight="bold"
-            bg="transparent"
-            color="#FFFDD0"
-            border="2px solid #FFA500"
-            borderRadius="8px"
-            padding="10px 20px"
-            fontSize="18px"
-            cursor="pointer"
-            transition="all 0.3s ease"
-            _hover={{
-              bg: '#FFA500',
-              color: 'white',
-              transform: 'scale(1.05)',
-            }}
-          >
-            Purchase
-          </Button> */}
+          <Link to="/contact">
+            <Button
+              mt={6}
+              fontFamily="'Tilt Prism', sans-serif"
+              fontWeight="bold"
+              bg="transparent"
+              color="#FFFDD0"
+              border="2px solid #FFA500"
+              borderRadius="8px"
+              padding="10px 20px"
+              fontSize="18px"
+              cursor="pointer"
+              transition="all 0.3s ease"
+              _hover={{
+                bg: '#FFA500',
+                color: 'white',
+                transform: 'scale(1.05)',
+              }}
+            >
+              Apply to Join
+            </Button>
+          </Link>
         </Box>
       </Stack>
     </VStack>
