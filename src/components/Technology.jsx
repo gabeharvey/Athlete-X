@@ -112,7 +112,7 @@ function Technology() {
             Athlete X Elite engineers work closely to design custom websites for each athlete, ensuring a unique experience tailored to achieve their goals.
           </Text>
           <Image 
-            src="/comp-engineers.png" 
+            src="/coding-pic.png" 
             alt="Engineer Collaboration"
             borderRadius="12px"
             boxSize="250px"
