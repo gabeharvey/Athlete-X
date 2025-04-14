@@ -16,7 +16,7 @@ function Celeb() {
     py={{ base: '80px', md: '120px', lg: '150px' }} 
     >
       <Text fontSize="3xl" color="#FFFDD0" fontFamily="'Changa', cursive" textAlign="center">
-        <span className="tilt-prism-3">Athlete X Elite</span> is endorsed by and partnered with professional stars!
+        <span className="tilt-prism-3">Athlete X Elite</span> is endorsed by and partnered with professional and collegiate stars!
       </Text>
 
       <Stack
