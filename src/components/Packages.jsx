@@ -16,7 +16,7 @@ function Packages() {
       py={{ base: '80px', md: '120px', lg: '150px' }}
     >
       <Text fontSize="3xl" color="#FFFDD0" fontFamily="'Changa', cursive" textAlign="center">
-        Ready to Join Athlete X Elite Family?
+        Join <span className="tilt-prism-3">Athlete X Elite</span> Family
       </Text>
       <Stack
         spacing={10}
@@ -93,7 +93,7 @@ function Packages() {
           }}
         >
           <Text fontSize="2xl" fontWeight="bold" color="#FFFDD0" fontFamily="'Changa', cursive">
-            1/1 Website $499.00
+            <span className="tilt-prism-3">Athlete X Elite</span> Website $499.00
           </Text>
           <Text mt={4} color="#FFFDD0" fontFamily="'Changa', cursive">
             Athlete X Elite engineers will code your star athlete custom website from scratch using the latest technologies. This custom website will be unique and tailored to best showcase the athlete as a player and student.
