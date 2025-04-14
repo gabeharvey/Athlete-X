@@ -60,7 +60,7 @@ function Celeb() {
           </Text>
         </Box>
         <Image
-          src="/Madison-Nunn.png"
+          src="/madison-pic-5.JPEG"
           alt="Celebrity Endorsement"
           borderRadius="10px"
           boxSize="250px"
