@@ -117,7 +117,7 @@ function Packages() {
                 transform: 'scale(1.05)',
               }}
             >
-              Apply to Join
+              Join Athlete X Elite
             </Button>
           </Link>
         </Box>
