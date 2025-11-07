@@ -160,6 +160,13 @@ function Elite() {
           bioLink="https://michael-terry-III.netlify.app"
           isUnderConstruction={false}
         />
+        <Card
+          frontImg="rayshun-hurt.JPG" // replace with your actual image path
+          name="Rayshun Hurt"
+          bio="Rayshun Hurt is a dynamic RB/WR/ATH from Johnson High School, combining elite speed, agility, and vision. He has consistently led his team to success and is a standout player in his class."
+          bioLink="https://rayshun-hurt.netlify.app" // replace with actual link if available
+          isUnderConstruction={true}
+        />
         {/* Add more football cards as needed */}
       </SimpleGrid>
       <Text fontSize="2xl" color="#FFFDD0" fontFamily="'Coda', system-ui" mt={6}>
