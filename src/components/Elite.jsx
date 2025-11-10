@@ -165,7 +165,7 @@ function Elite() {
           name="Rayshun Hurt"
           bio="Rayshun Hurt is a dynamic RB/WR/ATH from Johnson High School, combining elite speed, agility, and vision. He has consistently led his team to success and is a standout player in his class."
           bioLink="https://rayshun-hurt.netlify.app" // replace with actual link if available
-          isUnderConstruction={true}
+          isUnderConstruction={false}
         />
         {/* Add more football cards as needed */}
       </SimpleGrid>
